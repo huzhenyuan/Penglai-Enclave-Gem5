@@ -1,0 +1,2 @@
+-C /home/xywang/primer/tmp/spec-cpu2006_backup/benchspec/CPU2006/429.mcf/run/run_base_ref_amd64-m64-gcc42-nn.0004
+-o inp.out -e inp.err ../run_base_ref_amd64-m64-gcc42-nn.0004/mcf_base.amd64-m64-gcc42-nn inp.in

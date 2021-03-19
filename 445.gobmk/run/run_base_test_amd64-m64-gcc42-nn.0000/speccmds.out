@@ -1,0 +1,21 @@
+running commands in speccmds.cmd 1 times
+runs started at 1423056299, 541633000, Wed Feb  4 08:24:59 2015
+run 1 started at 1423056299, 541663000, Wed Feb  4 08:24:59 2015
+child started: 0, 1423056299, 541673000, pid=3380, '../run_base_test_amd64-m64-gcc42-nn.0000/gobmk_base.amd64-m64-gcc42-nn --quiet --mode gtp'
+child finished: 0, 1423056299, 662037000, sec=0, nsec=120364000, pid=3380, rc=0
+child started: 0, 1423056299, 662050000, pid=3382, '../run_base_test_amd64-m64-gcc42-nn.0000/gobmk_base.amd64-m64-gcc42-nn --quiet --mode gtp'
+child finished: 0, 1423056300, 426358000, sec=0, nsec=764308000, pid=3382, rc=0
+child started: 0, 1423056300, 426372000, pid=3384, '../run_base_test_amd64-m64-gcc42-nn.0000/gobmk_base.amd64-m64-gcc42-nn --quiet --mode gtp'
+child finished: 0, 1423056300, 468205000, sec=0, nsec=41833000, pid=3384, rc=0
+child started: 0, 1423056300, 468217000, pid=3386, '../run_base_test_amd64-m64-gcc42-nn.0000/gobmk_base.amd64-m64-gcc42-nn --quiet --mode gtp'
+child finished: 0, 1423056303, 186571000, sec=2, nsec=718354000, pid=3386, rc=0
+child started: 0, 1423056303, 186586000, pid=3388, '../run_base_test_amd64-m64-gcc42-nn.0000/gobmk_base.amd64-m64-gcc42-nn --quiet --mode gtp'
+child finished: 0, 1423056303, 242549000, sec=0, nsec=55963000, pid=3388, rc=0
+child started: 0, 1423056303, 242563000, pid=3390, '../run_base_test_amd64-m64-gcc42-nn.0000/gobmk_base.amd64-m64-gcc42-nn --quiet --mode gtp'
+child finished: 0, 1423056303, 409191000, sec=0, nsec=166628000, pid=3390, rc=0
+child started: 0, 1423056303, 409204000, pid=3392, '../run_base_test_amd64-m64-gcc42-nn.0000/gobmk_base.amd64-m64-gcc42-nn --quiet --mode gtp'
+child finished: 0, 1423056311, 597729000, sec=8, nsec=188525000, pid=3392, rc=0
+run 1 finished at: 1423056311, 597733000, Wed Feb  4 08:25:11 2015
+run 1 elapsed time: 12, 56070000, 12.056070000
+runs finished at 1423056311, 597753000, Wed Feb  4 08:25:11 2015
+runs elapsed time: 12, 56120000, 12.056120000

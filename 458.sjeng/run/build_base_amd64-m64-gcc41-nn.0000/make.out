@@ -1,0 +1,20 @@
+riscv64-unknown-linux-gnu-gcc -c -o attacks.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       attacks.c
+riscv64-unknown-linux-gnu-gcc -c -o book.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       book.c
+riscv64-unknown-linux-gnu-gcc -c -o crazy.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       crazy.c
+riscv64-unknown-linux-gnu-gcc -c -o draw.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       draw.c
+riscv64-unknown-linux-gnu-gcc -c -o ecache.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       ecache.c
+riscv64-unknown-linux-gnu-gcc -c -o epd.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       epd.c
+riscv64-unknown-linux-gnu-gcc -c -o eval.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       eval.c
+riscv64-unknown-linux-gnu-gcc -c -o leval.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       leval.c
+riscv64-unknown-linux-gnu-gcc -c -o moves.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       moves.c
+riscv64-unknown-linux-gnu-gcc -c -o neval.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       neval.c
+riscv64-unknown-linux-gnu-gcc -c -o partner.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       partner.c
+riscv64-unknown-linux-gnu-gcc -c -o proof.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       proof.c
+riscv64-unknown-linux-gnu-gcc -c -o rcfile.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       rcfile.c
+riscv64-unknown-linux-gnu-gcc -c -o search.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       search.c
+riscv64-unknown-linux-gnu-gcc -c -o see.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       see.c
+riscv64-unknown-linux-gnu-gcc -c -o seval.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       seval.c
+riscv64-unknown-linux-gnu-gcc -c -o sjeng.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       sjeng.c
+riscv64-unknown-linux-gnu-gcc -c -o ttable.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       ttable.c
+riscv64-unknown-linux-gnu-gcc -c -o utils.o -DSPEC_CPU -DNDEBUG  -static  -O2        -DSPEC_CPU_LP64  -static       utils.c
+riscv64-unknown-linux-gnu-gcc -static  -O2   -DSPEC_CPU_LP64        attacks.o book.o crazy.o draw.o ecache.o epd.o eval.o leval.o moves.o neval.o partner.o proof.o rcfile.o search.o see.o seval.o sjeng.o ttable.o utils.o                     -o sjeng

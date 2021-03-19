@@ -1,0 +1,23 @@
+/usr/bin/gfortran -c -o errorcheck.o    -O2       -DSPEC_CPU_LP64  -static       errorcheck.f90
+/usr/bin/gfortran -c -o parameter.o    -O2       -DSPEC_CPU_LP64  -static       parameter.f90
+/usr/bin/gfortran -c -o globalvar.o    -O2       -DSPEC_CPU_LP64  -static       globalvar.f90
+/usr/bin/gfortran -c -o excite.o    -O2       -DSPEC_CPU_LP64  -static       excite.f90
+/usr/bin/gfortran -c -o fourier_transf.o    -O2       -DSPEC_CPU_LP64  -static       fourier_transf.f90
+specperl /home/tiger/workspace/spec/spec-cpu2006_backup/bin/specpp   -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LP64   huygens.F90 -o huygens.fppized.f90
+/usr/bin/gfortran -c -o huygens.fppized.o    -O2       -DSPEC_CPU_LP64  -static       huygens.fppized.f90
+/usr/bin/gfortran -c -o posvector.o    -O2       -DSPEC_CPU_LP64  -static       posvector.f90
+specperl /home/tiger/workspace/spec/spec-cpu2006_backup/bin/specpp   -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LP64   NFT.F90 -o NFT.fppized.f90
+/usr/bin/gfortran -c -o NFT.fppized.o    -O2       -DSPEC_CPU_LP64  -static       NFT.fppized.f90
+/usr/bin/gfortran -c -o readline.o    -O2       -DSPEC_CPU_LP64  -static       readline.f90
+/usr/bin/gfortran -c -o PEC.o    -O2       -DSPEC_CPU_LP64  -static       PEC.f90
+specperl /home/tiger/workspace/spec/spec-cpu2006_backup/bin/specpp   -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LP64   UPML.F90 -o UPML.fppized.f90
+/usr/bin/gfortran -c -o UPML.fppized.o    -O2       -DSPEC_CPU_LP64  -static       UPML.fppized.f90
+/usr/bin/gfortran -c -o calcflops.o    -O2       -DSPEC_CPU_LP64  -static       calcflops.f90
+/usr/bin/gfortran -c -o progress.o    -O2       -DSPEC_CPU_LP64  -static       progress.f90
+specperl /home/tiger/workspace/spec/spec-cpu2006_backup/bin/specpp   -DSPEC_CPU -DNDEBUG -DSPEC_CPU_LP64   update.F90 -o update.fppized.f90
+/usr/bin/gfortran -c -o update.fppized.o    -O2       -DSPEC_CPU_LP64  -static       update.fppized.f90
+/usr/bin/gfortran -c -o leapfrog.o    -O2       -DSPEC_CPU_LP64  -static       leapfrog.f90
+/usr/bin/gfortran -c -o readdata.o    -O2       -DSPEC_CPU_LP64  -static       readdata.f90
+/usr/bin/gfortran -c -o GemsFDTD.o    -O2       -DSPEC_CPU_LP64  -static       GemsFDTD.f90
+/usr/bin/gfortran -c -o timerRoutine.o    -O2       -DSPEC_CPU_LP64  -static       timerRoutine.f90
+/usr/bin/gfortran -static  -O2  -DSPEC_CPU_LP64        errorcheck.o parameter.o globalvar.o excite.o fourier_transf.o huygens.fppized.o posvector.o NFT.fppized.o readline.o PEC.o UPML.fppized.o calcflops.o progress.o update.fppized.o leapfrog.o readdata.o GemsFDTD.o timerRoutine.o                     -o GemsFDTD

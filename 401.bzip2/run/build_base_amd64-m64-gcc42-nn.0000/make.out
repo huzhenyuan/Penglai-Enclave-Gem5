@@ -1,0 +1,10 @@
+/usr/bin/gcc -c -o spec.o -DSPEC_CPU -DNDEBUG    -O2       -DSPEC_CPU_LP64         spec.c
+/usr/bin/gcc -c -o blocksort.o -DSPEC_CPU -DNDEBUG    -O2       -DSPEC_CPU_LP64         blocksort.c
+/usr/bin/gcc -c -o bzip2.o -DSPEC_CPU -DNDEBUG    -O2       -DSPEC_CPU_LP64         bzip2.c
+/usr/bin/gcc -c -o bzlib.o -DSPEC_CPU -DNDEBUG    -O2       -DSPEC_CPU_LP64         bzlib.c
+/usr/bin/gcc -c -o compress.o -DSPEC_CPU -DNDEBUG    -O2       -DSPEC_CPU_LP64         compress.c
+/usr/bin/gcc -c -o crctable.o -DSPEC_CPU -DNDEBUG    -O2       -DSPEC_CPU_LP64         crctable.c
+/usr/bin/gcc -c -o decompress.o -DSPEC_CPU -DNDEBUG    -O2       -DSPEC_CPU_LP64         decompress.c
+/usr/bin/gcc -c -o huffman.o -DSPEC_CPU -DNDEBUG    -O2       -DSPEC_CPU_LP64         huffman.c
+/usr/bin/gcc -c -o randtable.o -DSPEC_CPU -DNDEBUG    -O2       -DSPEC_CPU_LP64         randtable.c
+/usr/bin/gcc   -O2  -DSPEC_CPU_LP64        spec.o blocksort.o bzip2.o bzlib.o compress.o crctable.o decompress.o huffman.o randtable.o                     -o bzip2

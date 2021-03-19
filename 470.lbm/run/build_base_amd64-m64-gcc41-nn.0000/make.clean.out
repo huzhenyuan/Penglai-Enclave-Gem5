@@ -1,0 +1,3 @@
+rm -rf lbm lbm.exe *.o  *.fppized.f*
+find . \( -name \*.o -o -name '*.fppized.f*' \) -print | xargs rm -rf
+rm -rf core 

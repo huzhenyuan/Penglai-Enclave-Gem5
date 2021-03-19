@@ -1,0 +1,6 @@
+build_base_amd64-m64-gcc41-nn.0000 dir=/home/clive/workspace/luxu/spec-cpu2006_backup/benchspec/CPU2006/445.gobmk/run/build_base_amd64-m64-gcc41-nn.0000 ext=amd64-m64-gcc41-nn lock=0 tune=base type=build username=clive
+build_base_amd64-m64-gcc42-nn.0000 dir=/mnt/spec-cpu2006/benchspec/CPU2006/445.gobmk/run/build_base_amd64-m64-gcc42-nn.0000 ext=amd64-m64-gcc42-nn lock=0 tune=base type=build username=root
+run_base_ref_amd64-m64-gcc42-nn.0000 dir=/mnt/spec-cpu2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_amd64-m64-gcc42-nn.0000 ext=amd64-m64-gcc42-nn lock=1 mach=default size=ref tune=base type=run username=root
+run_base_ref_amd64-m64-gcc42-nn.0001 dir=/mnt/spec-cpu2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_amd64-m64-gcc42-nn.0001 ext=amd64-m64-gcc42-nn lock=1 mach=default size=ref tune=base type=run username=root
+run_base_test_amd64-m64-gcc42-nn.0000 dir=/mnt/spec-cpu2006/benchspec/CPU2006/445.gobmk/run/run_base_test_amd64-m64-gcc42-nn.0000 ext=amd64-m64-gcc42-nn lock=1 mach=default size=test tune=base type=run username=root
+__END__

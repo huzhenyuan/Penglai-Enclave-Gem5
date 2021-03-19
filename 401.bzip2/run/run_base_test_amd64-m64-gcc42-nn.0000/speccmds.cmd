@@ -1,0 +1,3 @@
+-C /mnt/spec-cpu2006/benchspec/CPU2006/401.bzip2/run/run_base_test_amd64-m64-gcc42-nn.0000
+-o input.program.out -e input.program.err ../run_base_test_amd64-m64-gcc42-nn.0000/bzip2_base.amd64-m64-gcc42-nn input.program 5
+-o dryer.jpg.out -e dryer.jpg.err ../run_base_test_amd64-m64-gcc42-nn.0000/bzip2_base.amd64-m64-gcc42-nn dryer.jpg 2

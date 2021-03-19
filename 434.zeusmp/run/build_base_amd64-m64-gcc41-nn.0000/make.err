@@ -1,0 +1,30 @@
+linpck.f:517:72:
+
+    10 assign 30 to next
+                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+linpck.f:522:19:
+
+    20    go to next,(30, 50, 70, 110)
+                   1
+Warning: Deleted feature: Assigned GOTO statement at (1)
+linpck.f:524:72:
+
+       assign 50 to next
+                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+linpck.f:533:72:
+
+       assign 70 to next
+                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+linpck.f:539:72:
+
+       assign 110 to next
+                                                                        1
+Warning: Deleted feature: ASSIGN statement at (1)
+/home/clive/workspace/luxu/freedom-u-sdk/toolchain/bin/../lib/gcc/riscv64-unknown-linux-gnu/7.2.0/../../../../riscv64-unknown-linux-gnu/lib/libgfortran.a(fpu.o): In function `_gfortrani_set_fpu_trap_exceptions':
+/home/clive/workspace/tiger/RISC-V/freedom-u-sdk/work/riscv-gnu-toolchain/build-gcc-linux-stage2/riscv64-unknown-linux-gnu/libgfortran/./fpu-target.h:82: warning: fedisableexcept is not implemented and will always fail
+/home/clive/workspace/tiger/RISC-V/freedom-u-sdk/work/riscv-gnu-toolchain/build-gcc-linux-stage2/riscv64-unknown-linux-gnu/libgfortran/./fpu-target.h:80: warning: feenableexcept is not implemented and will always fail
+/home/clive/workspace/luxu/freedom-u-sdk/toolchain/bin/../lib/gcc/riscv64-unknown-linux-gnu/7.2.0/../../../../riscv64-unknown-linux-gnu/lib/libgfortran.a(fpu.o): In function `_gfortrani_get_fpu_trap_exceptions':
+/home/clive/workspace/tiger/RISC-V/freedom-u-sdk/work/riscv-gnu-toolchain/build-gcc-linux-stage2/riscv64-unknown-linux-gnu/libgfortran/./fpu-target.h:90: warning: fegetexcept is not implemented and will always fail

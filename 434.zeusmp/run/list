@@ -1,0 +1,2 @@
+build_base_amd64-m64-gcc42-nn.0000 dir=/home/tiger/workspace/spec/spec-cpu2006_backup/benchspec/CPU2006/434.zeusmp/run/build_base_amd64-m64-gcc42-nn.0000 ext=amd64-m64-gcc42-nn lock=0 tune=base type=build username=tiger
+__END__

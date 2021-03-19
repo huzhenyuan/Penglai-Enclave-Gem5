@@ -1,0 +1,11 @@
+running commands in speccmds.cmd 1 times
+runs started at 1423056272, 308577000, Wed Feb  4 08:24:32 2015
+run 1 started at 1423056272, 308617000, Wed Feb  4 08:24:32 2015
+child started: 0, 1423056272, 308624000, pid=3353, '../run_base_test_amd64-m64-gcc42-nn.0000/bzip2_base.amd64-m64-gcc42-nn input.program 5'
+child finished: 0, 1423056273, 801597000, sec=1, nsec=492973000, pid=3353, rc=0
+child started: 0, 1423056273, 801605000, pid=3355, '../run_base_test_amd64-m64-gcc42-nn.0000/bzip2_base.amd64-m64-gcc42-nn dryer.jpg 2'
+child finished: 0, 1423056276, 66029000, sec=2, nsec=264424000, pid=3355, rc=0
+run 1 finished at: 1423056276, 66034000, Wed Feb  4 08:24:36 2015
+run 1 elapsed time: 3, 757417000, 3.757417000
+runs finished at 1423056276, 66052000, Wed Feb  4 08:24:36 2015
+runs elapsed time: 3, 757475000, 3.757475000

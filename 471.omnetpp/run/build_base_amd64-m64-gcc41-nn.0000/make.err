@@ -1,0 +1,1238 @@
+In file included from omnet_include/omnetpp.h:28:0,
+                 from EtherAppCli_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppCli_n.cc:97:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from EtherAppSrv_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppSrv_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppSrv_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppSrv_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppSrv_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherAppSrv_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from EtherBus_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherBus_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherBus_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherBus_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherBus_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherBus_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherBus_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherBus_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherBus_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherBus_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from EtherEncap_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherEncap_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherEncap_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherEncap_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherEncap_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherEncap_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherEncap_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherEncap_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from EtherHost_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherHost_n.cc:91:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherHost_n.cc:91:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherHost_n.cc:91:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from EtherHub_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherHub_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherHub_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherHub_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherHub_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherHub_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from EtherLLC_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherLLC_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherLLC_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherLLC_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherLLC_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherLLC_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherLLC_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherLLC_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from EtherMAC_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherMAC_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from EtherSwitch_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherSwitch_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherSwitch_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherSwitch_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherSwitch_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+EtherSwitch_n.cc:92:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from LargeNet_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:115:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:115:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:115:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:115:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:115:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:354:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:354:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:354:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:354:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:354:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:354:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:354:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:800:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:800:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:800:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:800:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:800:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:800:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:800:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:800:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:800:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+LargeNet_n.cc:1468:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from MACRelayUnitNP_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitNP_n.cc:100:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from MACRelayUnitPP_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnitPP_n.cc:99:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from MACRelayUnit_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnit_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnit_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnit_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnit_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnit_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnit_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnit_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnit_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+MACRelayUnit_n.cc:94:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+In file included from omnet_include/omnetpp.h:28:0,
+                 from Networks_n.cc:16:
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+Networks_n.cc:89:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+Networks_n.cc:1103:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+Networks_n.cc:1247:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+Networks_n.cc:1612:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+omnet_include/macros.h:177:58: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ #define EndInterface            {'E', NULL,  NULL,  0   }};
+                                                          ^
+Networks_n.cc:1977:1: note: in expansion of macro 'EndInterface'
+ EndInterface
+ ^~~~~~~~~~~~
+libs/sim/cpar.cc:64:29: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ char *cPar::possibletypes = "SBLDFIXCTP";
+                             ^~~~~~~~~~~~
+libs/sim/cpar.cc: In member function 'virtual void cPar::info(char*)':
+libs/sim/cpar.cc:168:31: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+                   if (!s) s = "";
+                               ^~
+libs/sim/ctypes.cc: In member function 'void cModuleInterface::check_consistency()':
+libs/sim/ctypes.cc:304:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+           {what="number of gates";goto error1;}
+                 ^~~~~~~~~~~~~~~~~
+libs/sim/ctypes.cc:306:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+           {what="number of parameters";goto error1;}
+                 ^~~~~~~~~~~~~~~~~~~~~~
+libs/sim/ctypes.cc:308:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+           {what="number of machine pars";goto error1;}
+                 ^~~~~~~~~~~~~~~~~~~~~~~~
+libs/sim/ctypes.cc:314:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+           {what="names for machine par";id=i;which=machinev[i].name;goto error2;}
+                 ^~~~~~~~~~~~~~~~~~~~~~~
+libs/sim/ctypes.cc:319:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+           {what="names for parameter";id=i;which=paramv[i].name;goto error2;}
+                 ^~~~~~~~~~~~~~~~~~~~~
+libs/sim/ctypes.cc:326:21: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+               {what="allowed types for parameter";id=i;which=paramv[i].name;goto error2;}
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+libs/sim/ctypes.cc:331:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+           {what="names for gate #";id=i;which=gatev[i].name;goto error2;}
+                 ^~~~~~~~~~~~~~~~~~
+libs/sim/ctypes.cc:333:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+           {what="direction (in/out) for gate";id=i;which=gatev[i].name;goto error2;}
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+libs/sim/ctypes.cc:335:17: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+           {what="vector/scalar type for gate";id=i;which=gatev[i].name;goto error2;}
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+libs/sim/cgate.cc: In member function 'virtual void cGate::info(char*)':
+libs/sim/cgate.cc:183:18: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+         {arrow = "--> "; g = togatep; conng = this;}
+                  ^~~~~~
+libs/sim/cgate.cc:185:18: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+         {arrow = "<-- "; g = fromgatep; conng = fromgatep;}
+                  ^~~~~~
+libs/sim/cdensity.cc: In member function 'virtual void cDensityEstBase::writeContents(std::ostream&)':
+libs/sim/cdensity.cc:259:55: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+             plotline(os,"< ", basepoint(k), cell(k), a);
+                                                       ^
+libs/sim/cdensity.cc:260:43: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+         plotline(os,">=",basepoint(nc),0,a);
+                                           ^
+libs/sim/csimul.cc: In function 'std::ostream& operator<<(std::ostream&, tm)':
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+         "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+                                                 ^
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/csimul.cc:53:49: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+ };
+ ^
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+libs/sim/errmsg.cc:88:1: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]

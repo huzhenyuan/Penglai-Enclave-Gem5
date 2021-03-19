@@ -1,0 +1,20 @@
+io_lat4.c: In function 'qcdhdr_get_hdr':
+io_lat4.c:195:11: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     len = (int) q - (int) line;
+           ^
+io_lat4.c:195:21: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     len = (int) q - (int) line;
+                     ^
+io_lat4.c: In function 'read_gauge_hdr':
+io_lat4.c:1334:37: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+        (char *)GAUGE_VERSION_NUMBER,(char *)tmp);
+                                     ^
+In file included from generic_includes.h:13:0,
+                 from com_vanilla.c:83:
+com_vanilla.c: In function 'field_pointer_at_direction':
+macros.h:45:29: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ #define F_PT( site , fo )  ((char *)( site ) + (fo))
+                             ^
+com_vanilla.c:843:13: note: in expansion of macro 'F_PT'
+     return( F_PT( neighbor[direction][s-lattice], field ) );
+             ^~~~

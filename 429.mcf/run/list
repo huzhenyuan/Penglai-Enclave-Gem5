@@ -1,0 +1,3 @@
+build_base_amd64-m64-gcc41-nn.0000 dir=/home/clive/workspace/luxu/spec-cpu2006_backup/benchspec/CPU2006/429.mcf/run/build_base_amd64-m64-gcc41-nn.0000 ext=amd64-m64-gcc41-nn lock=0 tune=base type=build username=clive
+build_base_amd64-m64-gcc42-nn.0000 dir=/home/clive/workspace/luxu/spec-cpu2006_backup/benchspec/CPU2006/429.mcf/run/build_base_amd64-m64-gcc42-nn.0000 ext=amd64-m64-gcc42-nn lock=0 tune=base type=build username=clive
+__END__

@@ -1,0 +1,2 @@
+-c /mnt/spec-cpu2006/benchspec/CPU2006/401.bzip2/run/run_base_test_amd64-m64-gcc42-nn.0000 -o dryer.jpg.out.cmp specperl /mnt/spec-cpu2006/bin/specdiff -m -l 10 /mnt/spec-cpu2006/benchspec/CPU2006/401.bzip2/data/test/output/dryer.jpg.out dryer.jpg.out
+-c /mnt/spec-cpu2006/benchspec/CPU2006/401.bzip2/run/run_base_test_amd64-m64-gcc42-nn.0000 -o input.program.out.cmp specperl /mnt/spec-cpu2006/bin/specdiff -m -l 10 /mnt/spec-cpu2006/benchspec/CPU2006/401.bzip2/data/test/output/input.program.out input.program.out

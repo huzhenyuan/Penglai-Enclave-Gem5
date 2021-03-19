@@ -1,0 +1,11 @@
+running commands in compare.cmd 1 times
+runs started at 1423056284, 103263000, Wed Feb  4 08:24:44 2015
+run 1 started at 1423056284, 103299000, Wed Feb  4 08:24:44 2015
+child started: 0, 1423056284, 103305000, pid=3358, 'specperl /mnt/spec-cpu2006/bin/specdiff -m -l 10 /mnt/spec-cpu2006/benchspec/CPU2006/401.bzip2/data/test/output/dryer.jpg.out dryer.jpg.out'
+child finished: 0, 1423056284, 156523000, sec=0, nsec=53218000, pid=3358, rc=0
+child started: 0, 1423056284, 156531000, pid=3360, 'specperl /mnt/spec-cpu2006/bin/specdiff -m -l 10 /mnt/spec-cpu2006/benchspec/CPU2006/401.bzip2/data/test/output/input.program.out input.program.out'
+child finished: 0, 1423056284, 198244000, sec=0, nsec=41713000, pid=3360, rc=0
+run 1 finished at: 1423056284, 198248000, Wed Feb  4 08:24:44 2015
+run 1 elapsed time: 0, 94949000, 0.094949000
+runs finished at 1423056284, 198263000, Wed Feb  4 08:24:44 2015
+runs elapsed time: 0, 95000000, 0.095000000

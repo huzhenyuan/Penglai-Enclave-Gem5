@@ -1,0 +1,3 @@
+rm -rf zeusmp zeusmp.exe *.o  *.fppized.f*
+find . \( -name \*.o -o -name '*.fppized.f*' \) -print | xargs rm -rf
+rm -rf core 

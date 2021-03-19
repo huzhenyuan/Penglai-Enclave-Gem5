@@ -1,0 +1,13 @@
+bzip2.c: In function 'compressStream':
+bzip2.c:484:32: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+bzip2.c:487:27: warning: assignment makes integer from pointer without a cast [enabled by default]
+bzip2.c: In function 'uncompressStream':
+bzip2.c:611:32: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+bzip2.c:614:27: warning: assignment makes integer from pointer without a cast [enabled by default]
+bzlib.c: In function 'BZ2_bzWriteOpen':
+bzlib.c:996:13: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+bzlib.c: In function 'BZ2_bzReadOpen':
+bzlib.c:1172:13: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+bzlib.c: In function 'bzopen_or_bzdopen':
+bzlib.c:1512:12: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+bzlib.c:1521:14: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]

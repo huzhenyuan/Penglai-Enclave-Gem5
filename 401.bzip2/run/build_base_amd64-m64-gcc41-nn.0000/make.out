@@ -1,0 +1,10 @@
+riscv64-unknown-linux-gnu-gcc -c -o spec.o -DSPEC_CPU -DNDEBUG    -O2        -DSPEC_CPU_LP64  -static       spec.c
+riscv64-unknown-linux-gnu-gcc -c -o blocksort.o -DSPEC_CPU -DNDEBUG    -O2        -DSPEC_CPU_LP64  -static       blocksort.c
+riscv64-unknown-linux-gnu-gcc -c -o bzip2.o -DSPEC_CPU -DNDEBUG    -O2        -DSPEC_CPU_LP64  -static       bzip2.c
+riscv64-unknown-linux-gnu-gcc -c -o bzlib.o -DSPEC_CPU -DNDEBUG    -O2        -DSPEC_CPU_LP64  -static       bzlib.c
+riscv64-unknown-linux-gnu-gcc -c -o compress.o -DSPEC_CPU -DNDEBUG    -O2        -DSPEC_CPU_LP64  -static       compress.c
+riscv64-unknown-linux-gnu-gcc -c -o crctable.o -DSPEC_CPU -DNDEBUG    -O2        -DSPEC_CPU_LP64  -static       crctable.c
+riscv64-unknown-linux-gnu-gcc -c -o decompress.o -DSPEC_CPU -DNDEBUG    -O2        -DSPEC_CPU_LP64  -static       decompress.c
+riscv64-unknown-linux-gnu-gcc -c -o huffman.o -DSPEC_CPU -DNDEBUG    -O2        -DSPEC_CPU_LP64  -static       huffman.c
+riscv64-unknown-linux-gnu-gcc -c -o randtable.o -DSPEC_CPU -DNDEBUG    -O2        -DSPEC_CPU_LP64  -static       randtable.c
+riscv64-unknown-linux-gnu-gcc -static  -O2   -DSPEC_CPU_LP64        spec.o blocksort.o bzip2.o bzlib.o compress.o crctable.o decompress.o huffman.o randtable.o                     -o bzip2
