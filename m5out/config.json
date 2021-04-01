@@ -21,8 +21,6 @@
             "p_state_clk_gate_max": 1000000000000, 
             "master": {
                 "peer": [
-                    "system.cpu.interrupts.pio", 
-                    "system.cpu.interrupts.int_slave", 
                     "system.mem_ctrls.port"
                 ], 
                 "is_source": "True", 
@@ -34,10 +32,7 @@
                 "peer": [
                     "system.system_port", 
                     "system.cpu.icache.mem_side", 
-                    "system.cpu.dcache.mem_side", 
-                    "system.cpu.itb_walker_cache.mem_side", 
-                    "system.cpu.dtb_walker_cache.mem_side", 
-                    "system.cpu.interrupts.int_master"
+                    "system.cpu.dcache.mem_side"
                 ], 
                 "is_source": "False", 
                 "role": "GEM5 RESPONDER"
@@ -96,7 +91,6 @@
             }
         ], 
         "symbolfile": "", 
-        "kvm_vm": null, 
         "readfile": "", 
         "thermal_model": null, 
         "cxx_class": "System", 
@@ -184,117 +178,12 @@
                 "itb": {
                     "name": "itb", 
                     "eventq_index": 0, 
-                    "cxx_class": "X86ISA::TLB", 
-                    "walker": {
-                        "name": "walker", 
-                        "p_state_clk_gate_min": 1000, 
-                        "p_state_clk_gate_bins": 20, 
-                        "cxx_class": "X86ISA::Walker", 
-                        "clk_domain": "system.cpu_clk_domain", 
-                        "power_model": [], 
-                        "system": "system", 
-                        "eventq_index": 0, 
-                        "default_p_state": "UNDEFINED", 
-                        "p_state_clk_gate_max": 1000000000000, 
-                        "path": "system.cpu.itb.walker", 
-                        "type": "X86PagetableWalker", 
-                        "port": {
-                            "peer": "system.cpu.itb_walker_cache.cpu_side", 
-                            "is_source": "True", 
-                            "role": "GEM5 REQUESTER"
-                        }, 
-                        "num_squash_per_cycle": 4
-                    }, 
+                    "cxx_class": "RiscvISA::TLB", 
                     "path": "system.cpu.itb", 
-                    "type": "X86TLB", 
+                    "type": "RiscvTLB", 
                     "size": 64
                 }, 
                 "power_gating_on_idle": false, 
-                "dtb_walker_cache": {
-                    "replacement_policy": {
-                        "eventq_index": 0, 
-                        "path": "system.cpu.dtb_walker_cache.replacement_policy", 
-                        "type": "LRURP", 
-                        "name": "replacement_policy", 
-                        "cxx_class": "LRURP"
-                    }, 
-                    "cpu_side": {
-                        "peer": "system.cpu.dtb.walker.port", 
-                        "is_source": "False", 
-                        "role": "GEM5 RESPONDER"
-                    }, 
-                    "clusivity": "mostly_incl", 
-                    "prefetcher": null, 
-                    "system": "system", 
-                    "write_buffers": 8, 
-                    "response_latency": 2, 
-                    "cxx_class": "Cache", 
-                    "write_allocator": null, 
-                    "size": 1024, 
-                    "type": "Cache", 
-                    "clk_domain": "system.cpu_clk_domain", 
-                    "max_miss_count": 0, 
-                    "eventq_index": 0, 
-                    "default_p_state": "UNDEFINED", 
-                    "p_state_clk_gate_max": 1000000000000, 
-                    "mem_side": {
-                        "peer": "system.membus.slave[4]", 
-                        "is_source": "True", 
-                        "role": "GEM5 REQUESTER"
-                    }, 
-                    "mshrs": 10, 
-                    "writeback_clean": false, 
-                    "p_state_clk_gate_min": 1000, 
-                    "tags": {
-                        "tag_latency": 2, 
-                        "replacement_policy": "system.cpu.dtb_walker_cache.replacement_policy", 
-                        "name": "tags", 
-                        "p_state_clk_gate_min": 1000, 
-                        "eventq_index": 0, 
-                        "p_state_clk_gate_bins": 20, 
-                        "default_p_state": "UNDEFINED", 
-                        "warmup_percentage": 0, 
-                        "clk_domain": "system.cpu_clk_domain", 
-                        "indexing_policy": {
-                            "name": "indexing_policy", 
-                            "eventq_index": 0, 
-                            "assoc": 2, 
-                            "cxx_class": "SetAssociative", 
-                            "path": "system.cpu.dtb_walker_cache.tags.indexing_policy", 
-                            "entry_size": 64, 
-                            "type": "SetAssociative", 
-                            "size": 1024
-                        }, 
-                        "system": "system", 
-                        "sequential_access": false, 
-                        "assoc": 2, 
-                        "power_model": [], 
-                        "cxx_class": "BaseSetAssoc", 
-                        "p_state_clk_gate_max": 1000000000000, 
-                        "path": "system.cpu.dtb_walker_cache.tags", 
-                        "entry_size": 64, 
-                        "block_size": 64, 
-                        "type": "BaseSetAssoc", 
-                        "size": 1024
-                    }, 
-                    "tgts_per_mshr": 12, 
-                    "demand_mshr_reserve": 1, 
-                    "power_model": [], 
-                    "compressor": null, 
-                    "is_read_only": false, 
-                    "warmup_percentage": 0, 
-                    "prefetch_on_access": false, 
-                    "path": "system.cpu.dtb_walker_cache", 
-                    "data_latency": 2, 
-                    "tag_latency": 2, 
-                    "name": "dtb_walker_cache", 
-                    "addr_ranges": [
-                        "0:18446744073709551615"
-                    ], 
-                    "p_state_clk_gate_bins": 20, 
-                    "sequential_access": false, 
-                    "assoc": 2
-                }, 
                 "icache": {
                     "replacement_policy": {
                         "eventq_index": 0, 
@@ -384,91 +273,6 @@
                 "do_checkpoint_insts": true, 
                 "cxx_class": "TimingSimpleCPU", 
                 "system": "system", 
-                "itb_walker_cache": {
-                    "replacement_policy": {
-                        "eventq_index": 0, 
-                        "path": "system.cpu.itb_walker_cache.replacement_policy", 
-                        "type": "LRURP", 
-                        "name": "replacement_policy", 
-                        "cxx_class": "LRURP"
-                    }, 
-                    "cpu_side": {
-                        "peer": "system.cpu.itb.walker.port", 
-                        "is_source": "False", 
-                        "role": "GEM5 RESPONDER"
-                    }, 
-                    "clusivity": "mostly_incl", 
-                    "prefetcher": null, 
-                    "system": "system", 
-                    "write_buffers": 8, 
-                    "response_latency": 2, 
-                    "cxx_class": "Cache", 
-                    "write_allocator": null, 
-                    "size": 1024, 
-                    "type": "Cache", 
-                    "clk_domain": "system.cpu_clk_domain", 
-                    "max_miss_count": 0, 
-                    "eventq_index": 0, 
-                    "default_p_state": "UNDEFINED", 
-                    "p_state_clk_gate_max": 1000000000000, 
-                    "mem_side": {
-                        "peer": "system.membus.slave[3]", 
-                        "is_source": "True", 
-                        "role": "GEM5 REQUESTER"
-                    }, 
-                    "mshrs": 10, 
-                    "writeback_clean": false, 
-                    "p_state_clk_gate_min": 1000, 
-                    "tags": {
-                        "tag_latency": 2, 
-                        "replacement_policy": "system.cpu.itb_walker_cache.replacement_policy", 
-                        "name": "tags", 
-                        "p_state_clk_gate_min": 1000, 
-                        "eventq_index": 0, 
-                        "p_state_clk_gate_bins": 20, 
-                        "default_p_state": "UNDEFINED", 
-                        "warmup_percentage": 0, 
-                        "clk_domain": "system.cpu_clk_domain", 
-                        "indexing_policy": {
-                            "name": "indexing_policy", 
-                            "eventq_index": 0, 
-                            "assoc": 2, 
-                            "cxx_class": "SetAssociative", 
-                            "path": "system.cpu.itb_walker_cache.tags.indexing_policy", 
-                            "entry_size": 64, 
-                            "type": "SetAssociative", 
-                            "size": 1024
-                        }, 
-                        "system": "system", 
-                        "sequential_access": false, 
-                        "assoc": 2, 
-                        "power_model": [], 
-                        "cxx_class": "BaseSetAssoc", 
-                        "p_state_clk_gate_max": 1000000000000, 
-                        "path": "system.cpu.itb_walker_cache.tags", 
-                        "entry_size": 64, 
-                        "block_size": 64, 
-                        "type": "BaseSetAssoc", 
-                        "size": 1024
-                    }, 
-                    "tgts_per_mshr": 12, 
-                    "demand_mshr_reserve": 1, 
-                    "power_model": [], 
-                    "compressor": null, 
-                    "is_read_only": false, 
-                    "warmup_percentage": 0, 
-                    "prefetch_on_access": false, 
-                    "path": "system.cpu.itb_walker_cache", 
-                    "data_latency": 2, 
-                    "tag_latency": 2, 
-                    "name": "itb_walker_cache", 
-                    "addr_ranges": [
-                        "0:18446744073709551615"
-                    ], 
-                    "p_state_clk_gate_bins": 20, 
-                    "sequential_access": false, 
-                    "assoc": 2
-                }, 
                 "clk_domain": "system.cpu_clk_domain", 
                 "function_trace_start": 0, 
                 "cpu_id": 0, 
@@ -489,38 +293,11 @@
                 "syscallRetryLatency": 10000, 
                 "interrupts": [
                     {
-                        "int_master": {
-                            "peer": "system.membus.slave[5]", 
-                            "is_source": "True", 
-                            "role": "GEM5 REQUESTER"
-                        }, 
-                        "name": "interrupts", 
-                        "pio": {
-                            "peer": "system.membus.master[0]", 
-                            "is_source": "False", 
-                            "role": "GEM5 RESPONDER"
-                        }, 
-                        "int_slave": {
-                            "peer": "system.membus.master[1]", 
-                            "is_source": "False", 
-                            "role": "GEM5 RESPONDER"
-                        }, 
-                        "pio_latency": 100000, 
-                        "clk_domain": {
-                            "name": "clk_domain", 
-                            "clk_domain": "system.cpu_clk_domain", 
-                            "eventq_index": 0, 
-                            "cxx_class": "DerivedClockDomain", 
-                            "path": "system.cpu.interrupts.clk_domain", 
-                            "type": "DerivedClockDomain", 
-                            "clk_divider": 16
-                        }, 
-                        "system": "system", 
-                        "int_latency": 1000, 
                         "eventq_index": 0, 
-                        "cxx_class": "X86ISA::Interrupts", 
                         "path": "system.cpu.interrupts", 
-                        "type": "X86LocalApic"
+                        "type": "RiscvInterrupts", 
+                        "name": "interrupts", 
+                        "cxx_class": "RiscvISA::Interrupts"
                     }
                 ], 
                 "dcache_port": {
@@ -540,7 +317,7 @@
                         "pid": 100, 
                         "kvmInSE": false, 
                         "cxx_class": "Process", 
-                        "executable": "./434.zeusmp/exe/zeusmp_base.amd64-m64-gcc42-nn", 
+                        "executable": "./hello", 
                         "drivers": [], 
                         "system": "system", 
                         "gid": 100, 
@@ -549,7 +326,7 @@
                         "maxStackSize": 67108864, 
                         "ppid": 0, 
                         "type": "Process", 
-                        "cwd": "/home/tiger/workspace/gem5-mmt", 
+                        "cwd": "/home/penglai/penglai-enclave", 
                         "pgid": 100, 
                         "simpoint": 0, 
                         "euid": 100, 
@@ -557,7 +334,7 @@
                         "path": "system.cpu.workload", 
                         "name": "workload", 
                         "cmd": [
-                            "./434.zeusmp/exe/zeusmp_base.amd64-m64-gcc42-nn"
+                            "./hello"
                         ], 
                         "errout": "cerr", 
                         "useArchPT": false, 
@@ -571,29 +348,9 @@
                 "dtb": {
                     "name": "dtb", 
                     "eventq_index": 0, 
-                    "cxx_class": "X86ISA::TLB", 
-                    "walker": {
-                        "name": "walker", 
-                        "p_state_clk_gate_min": 1000, 
-                        "p_state_clk_gate_bins": 20, 
-                        "cxx_class": "X86ISA::Walker", 
-                        "clk_domain": "system.cpu_clk_domain", 
-                        "power_model": [], 
-                        "system": "system", 
-                        "eventq_index": 0, 
-                        "default_p_state": "UNDEFINED", 
-                        "p_state_clk_gate_max": 1000000000000, 
-                        "path": "system.cpu.dtb.walker", 
-                        "type": "X86PagetableWalker", 
-                        "port": {
-                            "peer": "system.cpu.dtb_walker_cache.cpu_side", 
-                            "is_source": "True", 
-                            "role": "GEM5 REQUESTER"
-                        }, 
-                        "num_squash_per_cycle": 4
-                    }, 
+                    "cxx_class": "RiscvISA::TLB", 
                     "path": "system.cpu.dtb", 
-                    "type": "X86TLB", 
+                    "type": "RiscvTLB", 
                     "size": 64
                 }, 
                 "simpoint_start_insts": [], 
@@ -689,9 +446,9 @@
                     {
                         "eventq_index": 0, 
                         "path": "system.cpu.isa", 
-                        "type": "X86ISA", 
+                        "type": "RiscvISA", 
                         "name": "isa", 
-                        "cxx_class": "X86ISA::ISA"
+                        "cxx_class": "RiscvISA::ISA"
                     }
                 ], 
                 "tracer": {
@@ -746,7 +503,7 @@
                 "write_high_thresh_perc": 85, 
                 "IDD2N2": 0.0, 
                 "port": {
-                    "peer": "system.membus.master[2]", 
+                    "peer": "system.membus.master[0]", 
                     "is_source": "False", 
                     "role": "GEM5 RESPONDER"
                 }, 

@@ -1,0 +1,16 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Apr  1 2021 03:49:16
+gem5 started Apr  1 2021 04:49:01
+gem5 executing on 0c6b3d375488, pid 6
+command line: build/RISCV/gem5.opt --redirect-stdout -r --stdout-file=simout-hello configs/example/se.py -n 1 --caches --cpu-type=TimingSimpleCPU --mem-size=2GB -c ./hello
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (2048 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+Hello world!
+Exiting @ tick 33457000 because exiting with last active thread context
