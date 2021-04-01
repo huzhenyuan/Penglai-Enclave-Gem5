@@ -22,21 +22,21 @@ fi
 
 # build gem5 
 if [[ $1 == "build" ]]; then
-	echo "Build: building penglai demo image"
+	echo "Build: building gem5.opt"
 	docker run -v $(pwd):/home/penglai/penglai-enclave -w /home/penglai/penglai-enclave --rm -it ddnirvana/penglai-enclave:v0.5 bash scripts/build.sh
 	exit 0
 fi
 
 # run test 
 if [[ $1 == "run" ]]; then
-	echo "Run: run penglai demo image in sPMP-supported Qemu"
+	echo "Run: run all tests"
 	docker run -v $(pwd):/home/penglai/penglai-enclave -w /home/penglai/penglai-enclave --rm -it ddnirvana/penglai-enclave:v0.5 bash scripts/run.sh
 	exit 0
 fi
 
 # show the original result 
 if [[ $1 == *"show"* ]]; then
-	echo "Run: run docker"
+	echo "Run: show the original result"
 	#sudo docker run --privileged --cap-add=ALL  -v $(pwd):/home/penglai/penglai-enclave -w /home/penglai/penglai-enclave --rm -it ddnirvana/penglai-enclave:v0.2
 	docker run -v $(pwd):/home/penglai/penglai-enclave -w /home/penglai/penglai-enclave --rm -it ddnirvana/penglai-enclave:v0.5 bash scripts/show.sh
 	exit 0
@@ -44,7 +44,7 @@ fi
 
 # dmoe: hello-world
 if [[ $1 == *"hello"* ]]; then
-	echo "Run: run docker"
+	echo "Run: hello"
 	#sudo docker run --privileged --cap-add=ALL  -v $(pwd):/home/penglai/penglai-enclave -w /home/penglai/penglai-enclave --rm -it ddnirvana/penglai-enclave:v0.2
 	docker run -v $(pwd):/home/penglai/penglai-enclave -w /home/penglai/penglai-enclave --rm -it ddnirvana/penglai-enclave:v0.5 bash scripts/hello.sh
 	exit 0
