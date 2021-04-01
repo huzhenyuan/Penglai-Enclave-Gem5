@@ -1,0 +1,1 @@
+build/RISCV/gem5.opt --redirect-stdout -r --stdout-file=simout-hello configs/example/se.py -n 1 --caches --cpu-type=TimingSimpleCPU --mem-size=2GB -c ./hello

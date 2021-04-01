@@ -106,7 +106,7 @@ unsigned long HASH_METADATA_BLOCK_SIZE = get_hash_metadta_block_size(HASH_TREE_L
 #define PROTECT_MEMORY 128<<20
 #define PAGE_SIZE 1<<12
 #define ENCRYPTION_OVERHEAD 20000
-#define IS_ENCRYPTION 1
+#define IS_ENCRYPTION 0
 
 #define DELETE_PACKET_QUEUE delete respQueue.front();\
             respQueue.front() = NULL;\

@@ -1,0 +1,1191 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar 29 2021 23:57:11
+gem5 started Mar 30 2021 23:15:03
+gem5 executing on tiger, pid 8483
+command line: build/RISCV/gem5.opt --debug-flag=MYTRACE -r --stdout-file=simout-gobmk configs/example/se.py -n 1 --caches --cpu-type=TimingSimpleCPU --mem-size=2GB --mem-channels=1 -c ./445.gobmk/exe/gobmk_base.amd64-m64-gcc41-nn
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (2048 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+700576000: system.mem_ctrls: mytrace writeOverhead 197135000 swap 3 write 4352 6310272
+700576000: system.mem_ctrls: mytrace2 totalAccess 59314 totalHit 55584 overflow 0 evictTime 0
+20086188000: system.mem_ctrls: mytrace writeOverhead 9555570000 swap 4 write 219350 11110528
+20086188000: system.mem_ctrls: mytrace2 totalAccess 2700024 totalHit 2574593 overflow 0 evictTime 0
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+40421448000: system.mem_ctrls: mytrace writeOverhead 19572515000 swap 4 write 449248 20684288
+40421448000: system.mem_ctrls: mytrace2 totalAccess 5525300 totalHit 5268192 overflow 0 evictTime 0
+51816071000: system.mem_ctrls: mytrace writeOverhead 25666265000 swap 4 write 589247 11083136
+51816071000: system.mem_ctrls: mytrace2 totalAccess 7244820 totalHit 6908498 overflow 0 evictTime 0
+63212682000: system.mem_ctrls: mytrace writeOverhead 32197740000 swap 4 write 739239 5463936
+63212682000: system.mem_ctrls: mytrace2 totalAccess 9087340 totalHit 8665699 overflow 0 evictTime 0
+64571324000: system.mem_ctrls: mytrace writeOverhead 32636755000 swap 4 write 748912 4754048
+64571324000: system.mem_ctrls: mytrace2 totalAccess 9210136 totalHit 8780258 overflow 0 evictTime 0
+65510384000: system.mem_ctrls: mytrace writeOverhead 33074390000 swap 4 write 758771 4814016
+65510384000: system.mem_ctrls: mytrace2 totalAccess 9333012 totalHit 8896237 overflow 0 evictTime 0
+65969391000: system.mem_ctrls: mytrace writeOverhead 33293855000 swap 4 write 763753 4786944
+65969391000: system.mem_ctrls: mytrace2 totalAccess 9394535 totalHit 8954559 overflow 0 evictTime 0
+66906573000: system.mem_ctrls: mytrace writeOverhead 33735670000 swap 4 write 773719 4854528
+66906573000: system.mem_ctrls: mytrace2 totalAccess 9517818 totalHit 9070987 overflow 0 evictTime 0
+69254119000: system.mem_ctrls: mytrace writeOverhead 34839170000 swap 4 write 798649 4827328
+69254119000: system.mem_ctrls: mytrace2 totalAccess 9825983 totalHit 9362235 overflow 0 evictTime 0
+70666656000: system.mem_ctrls: mytrace writeOverhead 35502105000 swap 4 write 813602 4864960
+70666656000: system.mem_ctrls: mytrace2 totalAccess 10010925 totalHit 9536904 overflow 0 evictTime 0
+71129465000: system.mem_ctrls: mytrace writeOverhead 35721835000 swap 4 write 818587 4804096
+71129465000: system.mem_ctrls: mytrace2 totalAccess 10072474 totalHit 9595225 overflow 0 evictTime 0
+71608182000: system.mem_ctrls: mytrace writeOverhead 35943260000 swap 4 write 823569 4754816
+71608182000: system.mem_ctrls: mytrace2 totalAccess 10134152 totalHit 9653394 overflow 0 evictTime 0
+72566328000: system.mem_ctrls: mytrace writeOverhead 36386120000 swap 4 write 833542 4852096
+72566328000: system.mem_ctrls: mytrace2 totalAccess 10257530 totalHit 9769789 overflow 0 evictTime 0
+73997712000: system.mem_ctrls: mytrace writeOverhead 37049735000 swap 4 write 848489 4856064
+73997712000: system.mem_ctrls: mytrace2 totalAccess 10442526 totalHit 9944354 overflow 0 evictTime 0
+74480481000: system.mem_ctrls: mytrace writeOverhead 37271580000 swap 4 write 853480 4805888
+74480481000: system.mem_ctrls: mytrace2 totalAccess 10504257 totalHit 10002541 overflow 0 evictTime 0
+75919336000: system.mem_ctrls: mytrace writeOverhead 37937040000 swap 4 write 868434 3760576
+75919336000: system.mem_ctrls: mytrace2 totalAccess 10689404 totalHit 10177007 overflow 0 evictTime 0
+77366017000: system.mem_ctrls: mytrace writeOverhead 38601630000 swap 4 write 883384 4713536
+77366017000: system.mem_ctrls: mytrace2 totalAccess 10874485 totalHit 10351516 overflow 0 evictTime 0
+77853311000: system.mem_ctrls: mytrace writeOverhead 38823750000 swap 4 write 888374 4859328
+77853311000: system.mem_ctrls: mytrace2 totalAccess 10936234 totalHit 10409673 overflow 0 evictTime 0
+78323318000: system.mem_ctrls: mytrace writeOverhead 39043920000 swap 4 write 893357 4798080
+78323318000: system.mem_ctrls: mytrace2 totalAccess 10997817 totalHit 10467941 overflow 0 evictTime 0
+78813549000: system.mem_ctrls: mytrace writeOverhead 39266250000 swap 4 write 898339 4747648
+78813549000: system.mem_ctrls: mytrace2 totalAccess 11059570 totalHit 10526033 overflow 0 evictTime 0
+79306468000: system.mem_ctrls: mytrace writeOverhead 39488635000 swap 4 write 903321 4697152
+79306468000: system.mem_ctrls: mytrace2 totalAccess 11121329 totalHit 10584119 overflow 0 evictTime 0
+79797642000: system.mem_ctrls: mytrace writeOverhead 39710755000 swap 4 write 908312 4842560
+79797642000: system.mem_ctrls: mytrace2 totalAccess 11183083 totalHit 10642281 overflow 0 evictTime 0
+82228283000: system.mem_ctrls: mytrace writeOverhead 40869200000 swap 4 write 933233 4763776
+82228283000: system.mem_ctrls: mytrace2 totalAccess 11491710 totalHit 10932993 overflow 51 evictTime 0
+83225037000: system.mem_ctrls: mytrace writeOverhead 41315235000 swap 4 write 943205 4858368
+83225037000: system.mem_ctrls: mytrace2 totalAccess 11615346 totalHit 11049119 overflow 51 evictTime 0
+85680480000: system.mem_ctrls: mytrace writeOverhead 42426075000 swap 4 write 968127 4776704
+85680480000: system.mem_ctrls: mytrace2 totalAccess 11924085 totalHit 11339732 overflow 51 evictTime 0
+86688724000: system.mem_ctrls: mytrace writeOverhead 42873015000 swap 4 write 978098 4869504
+86688724000: system.mem_ctrls: mytrace2 totalAccess 12047791 totalHit 11455776 overflow 51 evictTime 0
+87166483000: system.mem_ctrls: mytrace writeOverhead 43093835000 swap 4 write 983082 4808128
+87166483000: system.mem_ctrls: mytrace2 totalAccess 12109429 totalHit 11513999 overflow 51 evictTime 0
+90185474000: system.mem_ctrls: mytrace writeOverhead 44432885000 swap 4 write 1012992 4844288
+90185474000: system.mem_ctrls: mytrace2 totalAccess 12480408 totalHit 11862260 overflow 51 evictTime 0
+91177495000: system.mem_ctrls: mytrace writeOverhead 44877135000 swap 4 write 1022958 4762624
+91177495000: system.mem_ctrls: mytrace2 totalAccess 12603897 totalHit 11978480 overflow 51 evictTime 0
+92202788000: system.mem_ctrls: mytrace writeOverhead 45324670000 swap 4 write 1032931 4821440
+92202788000: system.mem_ctrls: mytrace2 totalAccess 12727658 totalHit 12094481 overflow 51 evictTime 0
+95238604000: system.mem_ctrls: mytrace writeOverhead 46664625000 swap 4 write 1062833 4717120
+95238604000: system.mem_ctrls: mytrace2 totalAccess 13098708 totalHit 12442610 overflow 51 evictTime 0
+96243611000: system.mem_ctrls: mytrace writeOverhead 47110540000 swap 4 write 1072806 4798784
+96243611000: system.mem_ctrls: mytrace2 totalAccess 13222341 totalHit 12558740 overflow 51 evictTime 0
+99350275000: system.mem_ctrls: mytrace writeOverhead 48501875000 swap 4 write 1102715 4867840
+99350275000: system.mem_ctrls: mytrace2 totalAccess 13593905 totalHit 12906415 overflow 98 evictTime 0
+104004389000: system.mem_ctrls: mytrace writeOverhead 50526005000 swap 4 write 1147576 4759744
+104004389000: system.mem_ctrls: mytrace2 totalAccess 14151324 totalHit 13427847 overflow 102 evictTime 0
+105073400000: system.mem_ctrls: mytrace writeOverhead 50978680000 swap 4 write 1157550 4849472
+105073400000: system.mem_ctrls: mytrace2 totalAccess 14275495 totalHit 13543442 overflow 102 evictTime 0
+106105037000: system.mem_ctrls: mytrace writeOverhead 51427810000 swap 4 write 1167515 4736640
+106105037000: system.mem_ctrls: mytrace2 totalAccess 14399366 totalHit 13659266 overflow 102 evictTime 0
+107677571000: system.mem_ctrls: mytrace writeOverhead 52104050000 swap 4 write 1182471 4765696
+107677571000: system.mem_ctrls: mytrace2 totalAccess 14585391 totalHit 13832862 overflow 102 evictTime 0
+108218195000: system.mem_ctrls: mytrace writeOverhead 52331225000 swap 4 write 1187453 4713216
+108218195000: system.mem_ctrls: mytrace2 totalAccess 14647531 totalHit 13890565 overflow 102 evictTime 0
+108758166000: system.mem_ctrls: mytrace writeOverhead 52558090000 swap 4 write 1192444 4822976
+108758166000: system.mem_ctrls: mytrace2 totalAccess 14709661 totalHit 13948350 overflow 102 evictTime 0
+110884570000: system.mem_ctrls: mytrace writeOverhead 53463125000 swap 4 write 1212382 4825728
+110884570000: system.mem_ctrls: mytrace2 totalAccess 14957887 totalHit 14179601 overflow 103 evictTime 0
+112479048000: system.mem_ctrls: mytrace writeOverhead 54142630000 swap 4 write 1227338 4860288
+112479048000: system.mem_ctrls: mytrace2 totalAccess 15144156 totalHit 14352959 overflow 103 evictTime 0
+114080615000: system.mem_ctrls: mytrace writeOverhead 54821490000 swap 4 write 1242285 4693952
+114080615000: system.mem_ctrls: mytrace2 totalAccess 15330371 totalHit 14526297 overflow 103 evictTime 0
+114626667000: system.mem_ctrls: mytrace writeOverhead 55048650000 swap 4 write 1247276 4830592
+114626667000: system.mem_ctrls: mytrace2 totalAccess 15392527 totalHit 14584057 overflow 103 evictTime 0
+116737941000: system.mem_ctrls: mytrace writeOverhead 55952825000 swap 4 write 1267215 4803264
+116737941000: system.mem_ctrls: mytrace2 totalAccess 15640733 totalHit 14815340 overflow 103 evictTime 0
+117293424000: system.mem_ctrls: mytrace writeOverhead 56183525000 swap 4 write 1272197 4750400
+117293424000: system.mem_ctrls: mytrace2 totalAccess 15702995 totalHit 14872920 overflow 105 evictTime 0
+118910539000: system.mem_ctrls: mytrace writeOverhead 56909050000 swap 4 write 1287153 4778304
+118910539000: system.mem_ctrls: mytrace2 totalAccess 15889407 totalHit 15046137 overflow 151 evictTime 0
+120532217000: system.mem_ctrls: mytrace writeOverhead 57594155000 swap 4 write 1302110 4810048
+120532217000: system.mem_ctrls: mytrace2 totalAccess 16075889 totalHit 15219287 overflow 154 evictTime 0
+123289245000: system.mem_ctrls: mytrace writeOverhead 58735870000 swap 4 write 1327029 4726016
+123289245000: system.mem_ctrls: mytrace2 totalAccess 16386990 totalHit 15507406 overflow 154 evictTime 0
+124358651000: system.mem_ctrls: mytrace writeOverhead 59188955000 swap 4 write 1337001 4809664
+124358651000: system.mem_ctrls: mytrace2 totalAccess 16511151 totalHit 15622965 overflow 154 evictTime 0
+127163095000: system.mem_ctrls: mytrace writeOverhead 60332345000 swap 4 write 1361918 6256640
+127163095000: system.mem_ctrls: mytrace2 totalAccess 16822330 totalHit 15910964 overflow 154 evictTime 0
+135185426000: system.mem_ctrls: mytrace writeOverhead 63596970000 swap 4 write 1436917 20658048
+135185426000: system.mem_ctrls: mytrace2 totalAccess 17743508 totalHit 16789693 overflow 154 evictTime 0
+146577013000: system.mem_ctrls: mytrace writeOverhead 69690700000 swap 4 write 1576916 11056896
+146577013000: system.mem_ctrls: mytrace2 totalAccess 19463027 totalHit 18429995 overflow 154 evictTime 0
+= black
+
+=1 1 T7
+
+159005877000: system.mem_ctrls: mytrace writeOverhead 76489330000 swap 4 write 1731722 6130560
+159005877000: system.mem_ctrls: mytrace2 totalAccess 21370227 totalHit 20240329 overflow 154 evictTime 0
+159480931000: system.mem_ctrls: mytrace writeOverhead 76708295000 swap 4 write 1736606 4794368
+159480931000: system.mem_ctrls: mytrace2 totalAccess 21431467 totalHit 20298147 overflow 156 evictTime 0
+159962874000: system.mem_ctrls: mytrace writeOverhead 76927390000 swap 4 write 1741516 4740288
+159962874000: system.mem_ctrls: mytrace2 totalAccess 21492900 totalHit 20355982 overflow 156 evictTime 0
+160895810000: system.mem_ctrls: mytrace writeOverhead 77368955000 swap 4 write 1751491 3759488
+160895810000: system.mem_ctrls: mytrace2 totalAccess 21616180 totalHit 20472488 overflow 156 evictTime 0
+161824015000: system.mem_ctrls: mytrace writeOverhead 77809895000 swap 4 write 1761457 4733120
+161824015000: system.mem_ctrls: mytrace2 totalAccess 21739393 totalHit 20588989 overflow 156 evictTime 0
+162763493000: system.mem_ctrls: mytrace writeOverhead 78251705000 swap 4 write 1771431 4832768
+162763493000: system.mem_ctrls: mytrace2 totalAccess 21862696 totalHit 20705457 overflow 156 evictTime 0
+163224333000: system.mem_ctrls: mytrace writeOverhead 78471840000 swap 4 write 1776414 4772288
+163224333000: system.mem_ctrls: mytrace2 totalAccess 21924268 totalHit 20763735 overflow 156 evictTime 0
+163696521000: system.mem_ctrls: mytrace writeOverhead 78694390000 swap 4 write 1781397 4723520
+163696521000: system.mem_ctrls: mytrace2 totalAccess 21985962 totalHit 20821893 overflow 157 evictTime 0
+166061128000: system.mem_ctrls: mytrace writeOverhead 79804155000 swap 4 write 1806332 4858944
+166061128000: system.mem_ctrls: mytrace2 totalAccess 22294394 totalHit 21112908 overflow 160 evictTime 0
+166524944000: system.mem_ctrls: mytrace writeOverhead 80024155000 swap 4 write 1811316 4798144
+166524944000: system.mem_ctrls: mytrace2 totalAccess 22355963 totalHit 21171201 overflow 160 evictTime 0
+171323588000: system.mem_ctrls: mytrace writeOverhead 82288875000 swap 4 write 1861174 4866816
+171323588000: system.mem_ctrls: mytrace2 totalAccess 22973430 totalHit 21752572 overflow 205 evictTime 0
+171792313000: system.mem_ctrls: mytrace writeOverhead 82509665000 swap 4 write 1866159 4809600
+171792313000: system.mem_ctrls: mytrace2 totalAccess 23035066 totalHit 21810802 overflow 205 evictTime 0
+174230952000: system.mem_ctrls: mytrace writeOverhead 83626210000 swap 4 write 1891085 4740480
+174230952000: system.mem_ctrls: mytrace2 totalAccess 23344262 totalHit 22100984 overflow 205 evictTime 0
+176690891000: system.mem_ctrls: mytrace writeOverhead 84747525000 swap 4 write 1916017 4838208
+176690891000: system.mem_ctrls: mytrace2 totalAccess 23653783 totalHit 22390885 overflow 206 evictTime 0
+187178674000: system.mem_ctrls: mytrace writeOverhead 89134950000 swap 4 write 2015946 20730752
+187178674000: system.mem_ctrls: mytrace2 totalAccess 24884576 totalHit 23559420 overflow 207 evictTime 0
+198563566000: system.mem_ctrls: mytrace writeOverhead 95228705000 swap 4 write 2155945 11129600
+198563566000: system.mem_ctrls: mytrace2 totalAccess 26604096 totalHit 25199724 overflow 207 evictTime 0
+= black
+
+211307275000: system.mem_ctrls: mytrace writeOverhead 102052865000 swap 4 write 2310872 28416
+211307275000: system.mem_ctrls: mytrace2 totalAccess 28512004 totalHit 27007491 overflow 207 evictTime 0
+213025966000: system.mem_ctrls: mytrace writeOverhead 102346400000 swap 4 write 2315825 27072
+213025966000: system.mem_ctrls: mytrace2 totalAccess 28574963 totalHit 27056859 overflow 215 evictTime 0
+214732422000: system.mem_ctrls: mytrace writeOverhead 102630990000 swap 4 write 2320783 41088
+214732422000: system.mem_ctrls: mytrace2 totalAccess 28637361 totalHit 27107040 overflow 223 evictTime 0
+223921352000: system.mem_ctrls: mytrace writeOverhead 104090735000 swap 4 write 2345461 207488
+223921352000: system.mem_ctrls: mytrace2 totalAccess 28948084 totalHit 27352111 overflow 275 evictTime 0
+227283432000: system.mem_ctrls: mytrace writeOverhead 104679965000 swap 4 write 2355352 20664064
+227283432000: system.mem_ctrls: mytrace2 totalAccess 29075053 totalHit 27451426 overflow 291 evictTime 0
+229187150000: system.mem_ctrls: mytrace writeOverhead 104978810000 swap 4 write 2360292 27072
+229187150000: system.mem_ctrls: mytrace2 totalAccess 29137537 totalHit 27500738 overflow 308 evictTime 0
+234445014000: system.mem_ctrls: mytrace writeOverhead 105841440000 swap 4 write 2375083 211648
+234445014000: system.mem_ctrls: mytrace2 totalAccess 29323769 totalHit 27649461 overflow 338 evictTime 0
+236109543000: system.mem_ctrls: mytrace writeOverhead 106128640000 swap 4 write 2380001 201472
+236109543000: system.mem_ctrls: mytrace2 totalAccess 29385792 totalHit 27699092 overflow 349 evictTime 0
+237726919000: system.mem_ctrls: mytrace writeOverhead 106418275000 swap 4 write 2384925 44928
+237726919000: system.mem_ctrls: mytrace2 totalAccess 29449003 totalHit 27748768 overflow 355 evictTime 0
+239451349000: system.mem_ctrls: mytrace writeOverhead 106710850000 swap 4 write 2389855 22464
+239451349000: system.mem_ctrls: mytrace2 totalAccess 29511951 totalHit 27798320 overflow 365 evictTime 0
+244849874000: system.mem_ctrls: mytrace writeOverhead 107592315000 swap 4 write 2404601 43520
+244849874000: system.mem_ctrls: mytrace2 totalAccess 29700050 totalHit 27945520 overflow 395 evictTime 0
+248218375000: system.mem_ctrls: mytrace writeOverhead 108170025000 swap 4 write 2414432 190976
+248218375000: system.mem_ctrls: mytrace2 totalAccess 29824282 totalHit 28044465 overflow 418 evictTime 0
+=2 1 M1
+
+253889979000: system.mem_ctrls: mytrace writeOverhead 109630390000 swap 4 write 2443620 4752576
+253889979000: system.mem_ctrls: mytrace2 totalAccess 30195035 totalHit 28372439 overflow 438 evictTime 0
+254358523000: system.mem_ctrls: mytrace writeOverhead 109853185000 swap 4 write 2448602 4705216
+254358523000: system.mem_ctrls: mytrace2 totalAccess 30256672 totalHit 28430647 overflow 440 evictTime 0
+255755851000: system.mem_ctrls: mytrace writeOverhead 110515595000 swap 4 write 2463557 4745344
+255755851000: system.mem_ctrls: mytrace2 totalAccess 30441510 totalHit 28605425 overflow 441 evictTime 0
+256228431000: system.mem_ctrls: mytrace writeOverhead 110737650000 swap 4 write 2468540 4697408
+256228431000: system.mem_ctrls: mytrace2 totalAccess 30503165 totalHit 28663621 overflow 442 evictTime 0
+256699958000: system.mem_ctrls: mytrace writeOverhead 110958495000 swap 4 write 2473531 4845440
+256699958000: system.mem_ctrls: mytrace2 totalAccess 30564816 totalHit 28721886 overflow 442 evictTime 0
+258584744000: system.mem_ctrls: mytrace writeOverhead 111842880000 swap 4 write 2493472 4868800
+258584744000: system.mem_ctrls: mytrace2 totalAccess 30811314 totalHit 28954899 overflow 444 evictTime 0
+260003157000: system.mem_ctrls: mytrace writeOverhead 112541960000 swap 4 write 2508427 3760640
+260003157000: system.mem_ctrls: mytrace2 totalAccess 30996236 totalHit 29129608 overflow 482 evictTime 0
+261905585000: system.mem_ctrls: mytrace writeOverhead 113426815000 swap 4 write 2528370 4863488
+261905585000: system.mem_ctrls: mytrace2 totalAccess 31242770 totalHit 29362608 overflow 484 evictTime 0
+262852090000: system.mem_ctrls: mytrace writeOverhead 113867470000 swap 4 write 2538338 4753280
+262852090000: system.mem_ctrls: mytrace2 totalAccess 31365965 totalHit 29479145 overflow 484 evictTime 0
+263818346000: system.mem_ctrls: mytrace writeOverhead 114311755000 swap 4 write 2548313 4817856
+263818346000: system.mem_ctrls: mytrace2 totalAccess 31489309 totalHit 29595588 overflow 486 evictTime 0
+265259099000: system.mem_ctrls: mytrace writeOverhead 114974380000 swap 4 write 2563262 4854720
+265259099000: system.mem_ctrls: mytrace2 totalAccess 31674230 totalHit 29770247 overflow 486 evictTime 0
+266703217000: system.mem_ctrls: mytrace writeOverhead 115637615000 swap 4 write 2578221 4727168
+266703217000: system.mem_ctrls: mytrace2 totalAccess 31859139 totalHit 29944997 overflow 487 evictTime 0
+267191707000: system.mem_ctrls: mytrace writeOverhead 115859840000 swap 4 write 2583209 3759680
+267191707000: system.mem_ctrls: mytrace2 totalAccess 31920817 totalHit 30003213 overflow 488 evictTime 0
+269138696000: system.mem_ctrls: mytrace writeOverhead 116744230000 swap 4 write 2603151 4859904
+269138696000: system.mem_ctrls: mytrace2 totalAccess 32167401 totalHit 30236155 overflow 489 evictTime 0
+269609879000: system.mem_ctrls: mytrace writeOverhead 116963975000 swap 4 write 2608135 4798912
+269609879000: system.mem_ctrls: mytrace2 totalAccess 32228951 totalHit 30294469 overflow 489 evictTime 0
+274036778000: system.mem_ctrls: mytrace writeOverhead 118956970000 swap 4 write 2653005 4719296
+274036778000: system.mem_ctrls: mytrace2 totalAccess 32783871 totalHit 30818473 overflow 493 evictTime 0
+281016973000: system.mem_ctrls: mytrace writeOverhead 122097345000 swap 4 write 2722809 4741632
+281016973000: system.mem_ctrls: mytrace2 totalAccess 33647578 totalHit 31633106 overflow 535 evictTime 0
+282527471000: system.mem_ctrls: mytrace writeOverhead 122764270000 swap 4 write 2737768 4771456
+282527471000: system.mem_ctrls: mytrace2 totalAccess 33832715 totalHit 31807616 overflow 537 evictTime 0
+284561965000: system.mem_ctrls: mytrace writeOverhead 123653085000 swap 4 write 2757710 4748800
+284561965000: system.mem_ctrls: mytrace2 totalAccess 34079655 totalHit 32040188 overflow 538 evictTime 0
+287616163000: system.mem_ctrls: mytrace writeOverhead 124989225000 swap 4 write 2787627 4807808
+287616163000: system.mem_ctrls: mytrace2 totalAccess 34450268 totalHit 32388874 overflow 540 evictTime 0
+292289789000: system.mem_ctrls: mytrace writeOverhead 127001155000 swap 4 write 2832488 4707200
+292289789000: system.mem_ctrls: mytrace2 totalAccess 35006706 totalHit 32911270 overflow 544 evictTime 0
+295403747000: system.mem_ctrls: mytrace writeOverhead 128344575000 swap 4 write 2862406 4764672
+295403747000: system.mem_ctrls: mytrace2 totalAccess 35377670 totalHit 33259609 overflow 549 evictTime 0
+296477457000: system.mem_ctrls: mytrace writeOverhead 128823645000 swap 4 write 2872381 4822912
+296477457000: system.mem_ctrls: mytrace2 totalAccess 35501500 totalHit 33375560 overflow 581 evictTime 0
+297510718000: system.mem_ctrls: mytrace writeOverhead 129273085000 swap 4 write 2882347 4740800
+297510718000: system.mem_ctrls: mytrace2 totalAccess 35625094 totalHit 33491676 overflow 585 evictTime 0
+298050849000: system.mem_ctrls: mytrace writeOverhead 129497615000 swap 4 write 2887330 6097280
+298050849000: system.mem_ctrls: mytrace2 totalAccess 35687029 totalHit 33549592 overflow 585 evictTime 0
+298588428000: system.mem_ctrls: mytrace writeOverhead 129722495000 swap 4 write 2892321 4828096
+298588428000: system.mem_ctrls: mytrace2 totalAccess 35748932 totalHit 33607604 overflow 586 evictTime 0
+299628828000: system.mem_ctrls: mytrace writeOverhead 130168750000 swap 4 write 2902287 4716864
+299628828000: system.mem_ctrls: mytrace2 totalAccess 35872574 totalHit 33723672 overflow 586 evictTime 0
+300667798000: system.mem_ctrls: mytrace writeOverhead 130616965000 swap 4 write 2912262 4798080
+300667798000: system.mem_ctrls: mytrace2 totalAccess 35996237 totalHit 33839791 overflow 588 evictTime 0
+302302119000: system.mem_ctrls: mytrace writeOverhead 131291930000 swap 4 write 2927219 4833920
+302302119000: system.mem_ctrls: mytrace2 totalAccess 36182170 totalHit 34013484 overflow 588 evictTime 0
+304396073000: system.mem_ctrls: mytrace writeOverhead 132188045000 swap 4 write 2947160 4802816
+304396073000: system.mem_ctrls: mytrace2 totalAccess 36429606 totalHit 34245548 overflow 590 evictTime 0
+306548621000: system.mem_ctrls: mytrace writeOverhead 133086700000 swap 4 write 2967102 4779008
+306548621000: system.mem_ctrls: mytrace2 totalAccess 36677323 totalHit 34477340 overflow 591 evictTime 0
+307101097000: system.mem_ctrls: mytrace writeOverhead 133311935000 swap 4 write 2972085 4726464
+307101097000: system.mem_ctrls: mytrace2 totalAccess 36739312 totalHit 34535203 overflow 591 evictTime 0
+308156024000: system.mem_ctrls: mytrace writeOverhead 133758750000 swap 4 write 2982060 4808320
+308156024000: system.mem_ctrls: mytrace2 totalAccess 36863017 totalHit 34651278 overflow 591 evictTime 0
+308711099000: system.mem_ctrls: mytrace writeOverhead 133984090000 swap 4 write 2987043 4755136
+308711099000: system.mem_ctrls: mytrace2 totalAccess 36925012 totalHit 34709135 overflow 591 evictTime 0
+311446019000: system.mem_ctrls: mytrace writeOverhead 135112110000 swap 4 write 3011973 3760960
+311446019000: system.mem_ctrls: mytrace2 totalAccess 37234905 totalHit 34998655 overflow 594 evictTime 0
+313076393000: system.mem_ctrls: mytrace writeOverhead 135787640000 swap 4 write 3026927 4707520
+313076393000: system.mem_ctrls: mytrace2 totalAccess 37420718 totalHit 35172450 overflow 596 evictTime 0
+313636544000: system.mem_ctrls: mytrace writeOverhead 136013400000 swap 4 write 3031918 4817600
+313636544000: system.mem_ctrls: mytrace2 totalAccess 37482763 totalHit 35230320 overflow 596 evictTime 0
+315827594000: system.mem_ctrls: mytrace writeOverhead 136940755000 swap 4 write 3051858 4836096
+315827594000: system.mem_ctrls: mytrace2 totalAccess 37730548 totalHit 35462032 overflow 626 evictTime 0
+316917443000: system.mem_ctrls: mytrace writeOverhead 137400370000 swap 4 write 3061822 4712000
+316917443000: system.mem_ctrls: mytrace2 totalAccess 37854564 totalHit 35577710 overflow 635 evictTime 0
+317484837000: system.mem_ctrls: mytrace writeOverhead 137627665000 swap 4 write 3066813 4854976
+317484837000: system.mem_ctrls: mytrace2 totalAccess 37916654 totalHit 35635535 overflow 636 evictTime 0
+317994388000: system.mem_ctrls: mytrace writeOverhead 137851040000 swap 4 write 3071795 4793024
+317994388000: system.mem_ctrls: mytrace2 totalAccess 37978415 totalHit 35693617 overflow 637 evictTime 0
+319137628000: system.mem_ctrls: mytrace writeOverhead 138305280000 swap 4 write 3081761 6096512
+319137628000: system.mem_ctrls: mytrace2 totalAccess 38102698 totalHit 35809047 overflow 637 evictTime 0
+321883270000: system.mem_ctrls: mytrace writeOverhead 139435465000 swap 4 write 3106690 4796736
+321883270000: system.mem_ctrls: mytrace2 totalAccess 38412768 totalHit 36098378 overflow 640 evictTime 0
+323614820000: system.mem_ctrls: mytrace writeOverhead 140119455000 swap 4 write 3121646 4824768
+323614820000: system.mem_ctrls: mytrace2 totalAccess 38599330 totalHit 36271432 overflow 641 evictTime 0
+325295223000: system.mem_ctrls: mytrace writeOverhead 140800615000 swap 4 write 3136601 4859456
+325295223000: system.mem_ctrls: mytrace2 totalAccess 38785660 totalHit 36444723 overflow 642 evictTime 0
+325812252000: system.mem_ctrls: mytrace writeOverhead 141023790000 swap 4 write 3141585 4797568
+325812252000: system.mem_ctrls: mytrace2 totalAccess 38847483 totalHit 36502760 overflow 642 evictTime 0
+326425630000: system.mem_ctrls: mytrace writeOverhead 141253760000 swap 4 write 3146567 6277504
+326425630000: system.mem_ctrls: mytrace2 totalAccess 38909818 totalHit 36560271 overflow 642 evictTime 0
+334445641000: system.mem_ctrls: mytrace writeOverhead 144518515000 swap 4 write 3221566 20678848
+334445641000: system.mem_ctrls: mytrace2 totalAccess 39831006 totalHit 37438987 overflow 642 evictTime 0
+345838453000: system.mem_ctrls: mytrace writeOverhead 150612300000 swap 4 write 3361565 11077696
+345838453000: system.mem_ctrls: mytrace2 totalAccess 41550529 totalHit 39079251 overflow 642 evictTime 0
+357228291000: system.mem_ctrls: mytrace writeOverhead 157142685000 swap 4 write 3511518 5454848
+357228291000: system.mem_ctrls: mytrace2 totalAccess 43392929 totalHit 40836261 overflow 642 evictTime 0
+= black
+
+=3 0
+
+361092385000: system.mem_ctrls: mytrace writeOverhead 157941675000 swap 4 write 3526200 4850944
+361092385000: system.mem_ctrls: mytrace2 totalAccess 43583264 totalHit 40995029 overflow 651 evictTime 0
+362031598000: system.mem_ctrls: mytrace writeOverhead 158381650000 swap 4 write 3536100 4770560
+362031598000: system.mem_ctrls: mytrace2 totalAccess 43706273 totalHit 41111207 overflow 652 evictTime 0
+362499112000: system.mem_ctrls: mytrace writeOverhead 158602330000 swap 4 write 3541082 4723072
+362499112000: system.mem_ctrls: mytrace2 totalAccess 43767894 totalHit 41169431 overflow 652 evictTime 0
+362965977000: system.mem_ctrls: mytrace writeOverhead 158823085000 swap 4 write 3546070 4838784
+362965977000: system.mem_ctrls: mytrace2 totalAccess 43829530 totalHit 41227690 overflow 652 evictTime 0
+363432884000: system.mem_ctrls: mytrace writeOverhead 159046030000 swap 4 write 3551055 4824000
+363432884000: system.mem_ctrls: mytrace2 totalAccess 43891111 totalHit 41285977 overflow 655 evictTime 0
+363893267000: system.mem_ctrls: mytrace writeOverhead 159267170000 swap 4 write 3556037 4762560
+363893267000: system.mem_ctrls: mytrace2 totalAccess 43952687 totalHit 41344246 overflow 656 evictTime 0
+364364292000: system.mem_ctrls: mytrace writeOverhead 159488320000 swap 4 write 3561019 4713728
+364364292000: system.mem_ctrls: mytrace2 totalAccess 44014345 totalHit 41402432 overflow 656 evictTime 0
+364835062000: system.mem_ctrls: mytrace writeOverhead 159709385000 swap 4 write 3566008 4860800
+364835062000: system.mem_ctrls: mytrace2 totalAccess 44076009 totalHit 41460664 overflow 656 evictTime 0
+365295441000: system.mem_ctrls: mytrace writeOverhead 159930085000 swap 4 write 3570991 4800064
+365295441000: system.mem_ctrls: mytrace2 totalAccess 44137557 totalHit 41518963 overflow 657 evictTime 0
+367177955000: system.mem_ctrls: mytrace writeOverhead 160815450000 swap 4 write 3590928 4786880
+367177955000: system.mem_ctrls: mytrace2 totalAccess 44384129 totalHit 41751854 overflow 659 evictTime 0
+369073458000: system.mem_ctrls: mytrace writeOverhead 161708200000 swap 4 write 3610865 4771904
+369073458000: system.mem_ctrls: mytrace2 totalAccess 44630752 totalHit 41984716 overflow 668 evictTime 0
+370499866000: system.mem_ctrls: mytrace writeOverhead 162399710000 swap 4 write 3625820 4810816
+370499866000: system.mem_ctrls: mytrace2 totalAccess 44815769 totalHit 42159317 overflow 697 evictTime 0
+370983183000: system.mem_ctrls: mytrace writeOverhead 162624925000 swap 4 write 3630803 4756736
+370983183000: system.mem_ctrls: mytrace2 totalAccess 44877522 totalHit 42217417 overflow 700 evictTime 0
+371952653000: system.mem_ctrls: mytrace writeOverhead 163069670000 swap 4 write 3640778 4852480
+371952653000: system.mem_ctrls: mytrace2 totalAccess 45001057 totalHit 42333672 overflow 700 evictTime 0
+373882995000: system.mem_ctrls: mytrace writeOverhead 163958605000 swap 4 write 3660718 4835648
+373882995000: system.mem_ctrls: mytrace2 totalAccess 45247995 totalHit 42566240 overflow 701 evictTime 0
+377323203000: system.mem_ctrls: mytrace writeOverhead 165515895000 swap 4 write 3695618 6382464
+377323203000: system.mem_ctrls: mytrace2 totalAccess 45680229 totalHit 42973158 overflow 703 evictTime 0
+385292320000: system.mem_ctrls: mytrace writeOverhead 168780585000 swap 4 write 3770617 20783808
+385292320000: system.mem_ctrls: mytrace2 totalAccess 46601411 totalHit 43851860 overflow 703 evictTime 0
+396674053000: system.mem_ctrls: mytrace writeOverhead 174874370000 swap 4 write 3910616 11182656
+396674053000: system.mem_ctrls: mytrace2 totalAccess 48320934 totalHit 45492154 overflow 703 evictTime 0
+408173532000: system.mem_ctrls: mytrace writeOverhead 181409075000 swap 4 write 4060592 5575808
+408173532000: system.mem_ctrls: mytrace2 totalAccess 50163682 totalHit 47249001 overflow 703 evictTime 0
+= black
+
+419189418000: system.mem_ctrls: mytrace writeOverhead 183146260000 swap 4 write 4090412 27072
+419189418000: system.mem_ctrls: mytrace2 totalAccess 50535887 totalHit 47545664 overflow 763 evictTime 0
+421470338000: system.mem_ctrls: mytrace writeOverhead 183441400000 swap 4 write 4095342 35456
+421470338000: system.mem_ctrls: mytrace2 totalAccess 50598054 totalHit 47593828 overflow 771 evictTime 0
+425320115000: system.mem_ctrls: mytrace writeOverhead 184021065000 swap 4 write 4105215 42752
+425320115000: system.mem_ctrls: mytrace2 totalAccess 50721944 totalHit 47691970 overflow 791 evictTime 0
+429075940000: system.mem_ctrls: mytrace writeOverhead 184594495000 swap 4 write 4115153 4233472
+429075940000: system.mem_ctrls: mytrace2 totalAccess 50846336 totalHit 47791700 overflow 809 evictTime 0
+430980854000: system.mem_ctrls: mytrace writeOverhead 184884815000 swap 4 write 4120102 11082944
+430980854000: system.mem_ctrls: mytrace2 totalAccess 50908588 totalHit 47840678 overflow 816 evictTime 0
+=4 0
+
+433725764000: system.mem_ctrls: mytrace writeOverhead 185426075000 swap 4 write 4129962 4855168
+433725764000: system.mem_ctrls: mytrace2 totalAccess 51033458 totalHit 47944604 overflow 827 evictTime 0
+434667978000: system.mem_ctrls: mytrace writeOverhead 185865295000 swap 4 write 4139832 4743040
+434667978000: system.mem_ctrls: mytrace2 totalAccess 51156378 totalHit 48060634 overflow 828 evictTime 0
+435135567000: system.mem_ctrls: mytrace writeOverhead 186086920000 swap 4 write 4144814 4695552
+435135567000: system.mem_ctrls: mytrace2 totalAccess 51217998 totalHit 48118861 overflow 829 evictTime 0
+435603243000: system.mem_ctrls: mytrace writeOverhead 186307275000 swap 4 write 4149805 4811136
+435603243000: system.mem_ctrls: mytrace2 totalAccess 51279609 totalHit 48177170 overflow 829 evictTime 0
+437935762000: system.mem_ctrls: mytrace writeOverhead 187413020000 swap 4 write 4174725 4774144
+437935762000: system.mem_ctrls: mytrace2 totalAccess 51587700 totalHit 48468415 overflow 832 evictTime 0
+439356434000: system.mem_ctrls: mytrace writeOverhead 188077135000 swap 4 write 4189681 4828608
+439356434000: system.mem_ctrls: mytrace2 totalAccess 51772680 totalHit 48643071 overflow 833 evictTime 0
+441240873000: system.mem_ctrls: mytrace writeOverhead 188963365000 swap 4 write 4209621 4799232
+441240873000: system.mem_ctrls: mytrace2 totalAccess 52019316 totalHit 48875945 overflow 835 evictTime 0
+442684046000: system.mem_ctrls: mytrace writeOverhead 189632085000 swap 4 write 4224578 4813824
+442684046000: system.mem_ctrls: mytrace2 totalAccess 52204505 totalHit 49050403 overflow 838 evictTime 0
+444601779000: system.mem_ctrls: mytrace writeOverhead 190553860000 swap 4 write 4244517 4831872
+444601779000: system.mem_ctrls: mytrace2 totalAccess 52451379 totalHit 49283020 overflow 874 evictTime 0
+445070174000: system.mem_ctrls: mytrace writeOverhead 190774665000 swap 4 write 4249500 4772096
+445070174000: system.mem_ctrls: mytrace2 totalAccess 52513007 totalHit 49341242 overflow 874 evictTime 0
+445558010000: system.mem_ctrls: mytrace writeOverhead 190997505000 swap 4 write 4254483 4722496
+445558010000: system.mem_ctrls: mytrace2 totalAccess 52574802 totalHit 49399299 overflow 874 evictTime 0
+446046193000: system.mem_ctrls: mytrace writeOverhead 191220525000 swap 4 write 4259472 5753792
+446046193000: system.mem_ctrls: mytrace2 totalAccess 52636621 totalHit 49457379 overflow 874 evictTime 0
+446516193000: system.mem_ctrls: mytrace writeOverhead 191441295000 swap 4 write 4264458 4808512
+446516193000: system.mem_ctrls: mytrace2 totalAccess 52698256 totalHit 49515621 overflow 874 evictTime 0
+447006100000: system.mem_ctrls: mytrace writeOverhead 191664505000 swap 4 write 4269441 4758208
+447006100000: system.mem_ctrls: mytrace2 totalAccess 52760079 totalHit 49573647 overflow 874 evictTime 0
+447498320000: system.mem_ctrls: mytrace writeOverhead 191888365000 swap 4 write 4274424 4708480
+447498320000: system.mem_ctrls: mytrace2 totalAccess 52821955 totalHit 49631626 overflow 874 evictTime 0
+448955761000: system.mem_ctrls: mytrace writeOverhead 192559605000 swap 4 write 4289382 4744192
+448955761000: system.mem_ctrls: mytrace2 totalAccess 53007424 totalHit 49805804 overflow 876 evictTime 0
+451944626000: system.mem_ctrls: mytrace writeOverhead 193904735000 swap 4 write 4319300 6352000
+451944626000: system.mem_ctrls: mytrace2 totalAccess 53378711 totalHit 50153828 overflow 878 evictTime 0
+459928152000: system.mem_ctrls: mytrace writeOverhead 197169460000 swap 4 write 4394299 20753344
+459928152000: system.mem_ctrls: mytrace2 totalAccess 54299897 totalHit 51032517 overflow 878 evictTime 0
+471310125000: system.mem_ctrls: mytrace writeOverhead 203263310000 swap 4 write 4534298 11152192
+471310125000: system.mem_ctrls: mytrace2 totalAccess 56019425 totalHit 52672781 overflow 878 evictTime 0
+482777932000: system.mem_ctrls: mytrace writeOverhead 209796220000 swap 4 write 4684272 5533696
+482777932000: system.mem_ctrls: mytrace2 totalAccess 57862029 totalHit 54429754 overflow 878 evictTime 0
+= black
+
+484212979000: system.mem_ctrls: mytrace writeOverhead 210091885000 swap 4 write 4689237 45632
+484212979000: system.mem_ctrls: mytrace2 totalAccess 57926224 totalHit 54480630 overflow 890 evictTime 0
+487597899000: system.mem_ctrls: mytrace writeOverhead 210660285000 swap 4 write 4699152 20672
+487597899000: system.mem_ctrls: mytrace2 totalAccess 58050238 totalHit 54579860 overflow 903 evictTime 0
+489296254000: system.mem_ctrls: mytrace writeOverhead 210947605000 swap 4 write 4704126 201472
+489296254000: system.mem_ctrls: mytrace2 totalAccess 58113210 totalHit 54630506 overflow 912 evictTime 0
+490860397000: system.mem_ctrls: mytrace writeOverhead 211228675000 swap 4 write 4709087 190976
+490860397000: system.mem_ctrls: mytrace2 totalAccess 58175305 totalHit 54680979 overflow 920 evictTime 0
+492430676000: system.mem_ctrls: mytrace writeOverhead 211515445000 swap 4 write 4714045 211456
+492430676000: system.mem_ctrls: mytrace2 totalAccess 58237406 totalHit 54731295 overflow 933 evictTime 0
+499060334000: system.mem_ctrls: mytrace writeOverhead 212649040000 swap 4 write 4733923 192512
+499060334000: system.mem_ctrls: mytrace2 totalAccess 58484517 totalHit 54931948 overflow 973 evictTime 0
+502226793000: system.mem_ctrls: mytrace writeOverhead 213207085000 swap 4 write 4743893 241024
+502226793000: system.mem_ctrls: mytrace2 totalAccess 58609289 totalHit 55034839 overflow 992 evictTime 0
+503938361000: system.mem_ctrls: mytrace writeOverhead 213489945000 swap 4 write 4748823 207488
+503938361000: system.mem_ctrls: mytrace2 totalAccess 58671352 totalHit 55084666 overflow 999 evictTime 0
+507466846000: system.mem_ctrls: mytrace writeOverhead 214057220000 swap 4 write 4758703 53440
+507466846000: system.mem_ctrls: mytrace2 totalAccess 58794137 totalHit 55184674 overflow 1025 evictTime 0
+509122924000: system.mem_ctrls: mytrace writeOverhead 214339660000 swap 4 write 4763665 29598976
+509122924000: system.mem_ctrls: mytrace2 totalAccess 58856255 totalHit 55234807 overflow 1032 evictTime 0
+514031258000: system.mem_ctrls: mytrace writeOverhead 215187630000 swap 4 write 4778543 26816
+514031258000: system.mem_ctrls: mytrace2 totalAccess 59042076 totalHit 55385504 overflow 1060 evictTime 0
+515674930000: system.mem_ctrls: mytrace writeOverhead 215471120000 swap 4 write 4783499 21248
+515674930000: system.mem_ctrls: mytrace2 totalAccess 59103953 totalHit 55435798 overflow 1071 evictTime 0
+519020203000: system.mem_ctrls: mytrace writeOverhead 216041615000 swap 4 write 4793390 44928
+519020203000: system.mem_ctrls: mytrace2 totalAccess 59228990 totalHit 55535875 overflow 1086 evictTime 0
+520726943000: system.mem_ctrls: mytrace writeOverhead 216328295000 swap 4 write 4798332 3760256
+520726943000: system.mem_ctrls: mytrace2 totalAccess 59291694 totalHit 55586041 overflow 1095 evictTime 0
+525678887000: system.mem_ctrls: mytrace writeOverhead 217172710000 swap 4 write 4813162 47872
+525678887000: system.mem_ctrls: mytrace2 totalAccess 59476884 totalHit 55736337 overflow 1123 evictTime 0
+527274438000: system.mem_ctrls: mytrace writeOverhead 217461795000 swap 4 write 4818116 20713664
+527274438000: system.mem_ctrls: mytrace2 totalAccess 59538948 totalHit 55786046 overflow 1135 evictTime 0
+530654040000: system.mem_ctrls: mytrace writeOverhead 218032565000 swap 4 write 4827954 44928
+530654040000: system.mem_ctrls: mytrace2 totalAccess 59664204 totalHit 55885862 overflow 1150 evictTime 0
+534015956000: system.mem_ctrls: mytrace writeOverhead 218597565000 swap 4 write 4837841 211904
+534015956000: system.mem_ctrls: mytrace2 totalAccess 59788329 totalHit 55986147 overflow 1167 evictTime 0
+539003940000: system.mem_ctrls: mytrace writeOverhead 219436800000 swap 4 write 4852693 43520
+539003940000: system.mem_ctrls: mytrace2 totalAccess 59973717 totalHit 56137400 overflow 1194 evictTime 0
+540574199000: system.mem_ctrls: mytrace writeOverhead 219715275000 swap 4 write 4857651 37056
+540574199000: system.mem_ctrls: mytrace2 totalAccess 60035345 totalHit 56188084 overflow 1204 evictTime 0
+542413768000: system.mem_ctrls: mytrace writeOverhead 220007630000 swap 4 write 4862600 192320
+542413768000: system.mem_ctrls: mytrace2 totalAccess 60097640 totalHit 56237673 overflow 1217 evictTime 0
+543989880000: system.mem_ctrls: mytrace writeOverhead 220287875000 swap 4 write 4867564 36992
+543989880000: system.mem_ctrls: mytrace2 totalAccess 60159670 totalHit 56288358 overflow 1226 evictTime 0
+550573021000: system.mem_ctrls: mytrace writeOverhead 221426680000 swap 4 write 4887363 189952
+550573021000: system.mem_ctrls: mytrace2 totalAccess 60408541 totalHit 56489012 overflow 1265 evictTime 0
+=5 0
+
+553944038000: system.mem_ctrls: mytrace writeOverhead 222006925000 swap 4 write 4897130 29623424
+553944038000: system.mem_ctrls: mytrace2 totalAccess 60534541 totalHit 56588148 overflow 1283 evictTime 0
+554903094000: system.mem_ctrls: mytrace writeOverhead 222444690000 swap 4 write 4906931 4740032
+554903094000: system.mem_ctrls: mytrace2 totalAccess 60657341 totalHit 56703743 overflow 1283 evictTime 0
+555369576000: system.mem_ctrls: mytrace writeOverhead 222665755000 swap 4 write 4911914 4855808
+555369576000: system.mem_ctrls: mytrace2 totalAccess 60718993 totalHit 56761943 overflow 1283 evictTime 0
+555835996000: system.mem_ctrls: mytrace writeOverhead 222886175000 swap 4 write 4916905 4840640
+555835996000: system.mem_ctrls: mytrace2 totalAccess 60780610 totalHit 56820244 overflow 1283 evictTime 0
+556294754000: system.mem_ctrls: mytrace writeOverhead 223106935000 swap 4 write 4921888 4780672
+556294754000: system.mem_ctrls: mytrace2 totalAccess 60842159 totalHit 56878548 overflow 1284 evictTime 0
+558639778000: system.mem_ctrls: mytrace writeOverhead 224213185000 swap 4 write 4946813 4722816
+558639778000: system.mem_ctrls: mytrace2 totalAccess 61150447 totalHit 57169629 overflow 1285 evictTime 0
+559112856000: system.mem_ctrls: mytrace writeOverhead 224434645000 swap 4 write 4951802 4870080
+559112856000: system.mem_ctrls: mytrace2 totalAccess 61212140 totalHit 57227836 overflow 1285 evictTime 0
+559576945000: system.mem_ctrls: mytrace writeOverhead 224655615000 swap 4 write 4956787 4831168
+559576945000: system.mem_ctrls: mytrace2 totalAccess 61273715 totalHit 57286129 overflow 1286 evictTime 0
+561004781000: system.mem_ctrls: mytrace writeOverhead 225323705000 swap 4 write 4971746 4858048
+561004781000: system.mem_ctrls: mytrace2 totalAccess 61458855 totalHit 57460640 overflow 1289 evictTime 0
+561467598000: system.mem_ctrls: mytrace writeOverhead 225544750000 swap 4 write 4976730 4797248
+561467598000: system.mem_ctrls: mytrace2 totalAccess 61520431 totalHit 57518926 overflow 1290 evictTime 0
+563372290000: system.mem_ctrls: mytrace writeOverhead 226463395000 swap 4 write 4996673 4784128
+563372290000: system.mem_ctrls: mytrace2 totalAccess 61767210 totalHit 57751677 overflow 1324 evictTime 0
+564822140000: system.mem_ctrls: mytrace writeOverhead 227132635000 swap 4 write 5011630 4829824
+564822140000: system.mem_ctrls: mytrace2 totalAccess 61952452 totalHit 57926072 overflow 1327 evictTime 0
+565290278000: system.mem_ctrls: mytrace writeOverhead 227353490000 swap 4 write 5016613 4770496
+565290278000: system.mem_ctrls: mytrace2 totalAccess 62014084 totalHit 57984295 overflow 1327 evictTime 0
+566263311000: system.mem_ctrls: mytrace writeOverhead 227798930000 swap 4 write 5026585 4867520
+566263311000: system.mem_ctrls: mytrace2 totalAccess 62137671 totalHit 58100471 overflow 1327 evictTime 0
+566732596000: system.mem_ctrls: mytrace writeOverhead 228019570000 swap 4 write 5031571 4810368
+566732596000: system.mem_ctrls: mytrace2 totalAccess 62199296 totalHit 58158722 overflow 1327 evictTime 0
+567222364000: system.mem_ctrls: mytrace writeOverhead 228244620000 swap 4 write 5036554 4756672
+567222364000: system.mem_ctrls: mytrace2 totalAccess 62261114 totalHit 58216758 overflow 1329 evictTime 0
+567714307000: system.mem_ctrls: mytrace writeOverhead 228468125000 swap 4 write 5041537 4706944
+567714307000: system.mem_ctrls: mytrace2 totalAccess 62322963 totalHit 58274760 overflow 1329 evictTime 0
+568675195000: system.mem_ctrls: mytrace writeOverhead 228915690000 swap 4 write 5051512 4792384
+568675195000: system.mem_ctrls: mytrace2 totalAccess 62446493 totalHit 58391011 overflow 1332 evictTime 0
+570631994000: system.mem_ctrls: mytrace writeOverhead 229810860000 swap 4 write 5071454 4778432
+570631994000: system.mem_ctrls: mytrace2 totalAccess 62693929 totalHit 58623086 overflow 1333 evictTime 0
+571129639000: system.mem_ctrls: mytrace writeOverhead 230036615000 swap 4 write 5076437 4728704
+571129639000: system.mem_ctrls: mytrace2 totalAccess 62755882 totalHit 58680985 overflow 1334 evictTime 0
+580600262000: system.mem_ctrls: mytrace writeOverhead 233970260000 swap 4 write 5166403 20887040
+580600262000: system.mem_ctrls: mytrace2 totalAccess 63862504 totalHit 59733974 overflow 1334 evictTime 0
+591967092000: system.mem_ctrls: mytrace writeOverhead 240064115000 swap 4 write 5306402 11285888
+591967092000: system.mem_ctrls: mytrace2 totalAccess 65582033 totalHit 61374233 overflow 1334 evictTime 0
+= black
+
+603746337000: system.mem_ctrls: mytrace writeOverhead 246629685000 swap 4 write 5456365 212672
+603746337000: system.mem_ctrls: mytrace2 totalAccess 67426635 totalHit 63128209 overflow 1335 evictTime 0
+=6 1 N2
+
+606318497000: system.mem_ctrls: mytrace writeOverhead 247552400000 swap 4 write 5476119 4830208
+606318497000: system.mem_ctrls: mytrace2 totalAccess 67674428 totalHit 63355723 overflow 1338 evictTime 0
+607716115000: system.mem_ctrls: mytrace writeOverhead 248215580000 swap 4 write 5491074 4870720
+607716115000: system.mem_ctrls: mytrace2 totalAccess 67859318 totalHit 63530455 overflow 1339 evictTime 0
+609119531000: system.mem_ctrls: mytrace writeOverhead 248878295000 swap 4 write 5506027 4713024
+609119531000: system.mem_ctrls: mytrace2 totalAccess 68044249 totalHit 63705123 overflow 1339 evictTime 0
+610053323000: system.mem_ctrls: mytrace writeOverhead 249320470000 swap 4 write 5516002 4799680
+610053323000: system.mem_ctrls: mytrace2 totalAccess 68167500 totalHit 63821657 overflow 1340 evictTime 0
+610528838000: system.mem_ctrls: mytrace writeOverhead 249543040000 swap 4 write 5520985 4750592
+610528838000: system.mem_ctrls: mytrace2 totalAccess 68229196 totalHit 63879811 overflow 1341 evictTime 0
+611482186000: system.mem_ctrls: mytrace writeOverhead 249989440000 swap 4 write 5530960 4815744
+611482186000: system.mem_ctrls: mytrace2 totalAccess 68352632 totalHit 63996155 overflow 1344 evictTime 0
+611946678000: system.mem_ctrls: mytrace writeOverhead 250209555000 swap 4 write 5535944 4787712
+611946678000: system.mem_ctrls: mytrace2 totalAccess 68414209 totalHit 64054440 overflow 1344 evictTime 0
+614815209000: system.mem_ctrls: mytrace writeOverhead 251575500000 swap 4 write 5565859 4839040
+614815209000: system.mem_ctrls: mytrace2 totalAccess 68784495 totalHit 64403456 overflow 1381 evictTime 0
+616252364000: system.mem_ctrls: mytrace writeOverhead 252240665000 swap 4 write 5580811 4711552
+616252364000: system.mem_ctrls: mytrace2 totalAccess 68969630 totalHit 64577918 overflow 1381 evictTime 0
+616737277000: system.mem_ctrls: mytrace writeOverhead 252464210000 swap 4 write 5585802 4858048
+616737277000: system.mem_ctrls: mytrace2 totalAccess 69031419 totalHit 64636047 overflow 1382 evictTime 0
+618186693000: system.mem_ctrls: mytrace writeOverhead 253134145000 swap 4 write 5600753 4697728
+618186693000: system.mem_ctrls: mytrace2 totalAccess 69216699 totalHit 64810358 overflow 1385 evictTime 0
+618676888000: system.mem_ctrls: mytrace writeOverhead 253359330000 swap 4 write 5605744 4811008
+618676888000: system.mem_ctrls: mytrace2 totalAccess 69278544 totalHit 64868427 overflow 1387 evictTime 0
+620134175000: system.mem_ctrls: mytrace writeOverhead 254028665000 swap 4 write 5620695 4847488
+620134175000: system.mem_ctrls: mytrace2 totalAccess 69464006 totalHit 65042553 overflow 1387 evictTime 0
+622097307000: system.mem_ctrls: mytrace writeOverhead 254924785000 swap 4 write 5640641 4866112
+622097307000: system.mem_ctrls: mytrace2 totalAccess 69711525 totalHit 65274575 overflow 1388 evictTime 0
+622570563000: system.mem_ctrls: mytrace writeOverhead 255146225000 swap 4 write 5645628 4804928
+622570563000: system.mem_ctrls: mytrace2 totalAccess 69773214 totalHit 65332772 overflow 1388 evictTime 0
+631119316000: system.mem_ctrls: mytrace writeOverhead 258637345000 swap 4 write 5725610 20692928
+631119316000: system.mem_ctrls: mytrace2 totalAccess 70756460 totalHit 66269270 overflow 1388 evictTime 0
+642505586000: system.mem_ctrls: mytrace writeOverhead 264731205000 swap 4 write 5865609 11091776
+642505586000: system.mem_ctrls: mytrace2 totalAccess 72475989 totalHit 67909533 overflow 1388 evictTime 0
+653909917000: system.mem_ctrls: mytrace writeOverhead 271263045000 swap 4 write 6015584 5470784
+653909917000: system.mem_ctrls: mytrace2 totalAccess 74318516 totalHit 69666590 overflow 1388 evictTime 0
+= black
+
+=7 1 S2
+
+655977180000: system.mem_ctrls: mytrace writeOverhead 271930860000 swap 4 write 6029973 4820736
+655977180000: system.mem_ctrls: mytrace2 totalAccess 74503232 totalHit 69836912 overflow 1389 evictTime 0
+659242982000: system.mem_ctrls: mytrace writeOverhead 273476210000 swap 4 write 6064858 4854720
+659242982000: system.mem_ctrls: mytrace2 totalAccess 74934513 totalHit 70244680 overflow 1391 evictTime 0
+659714459000: system.mem_ctrls: mytrace writeOverhead 273697515000 swap 4 write 6069848 4805824
+659714459000: system.mem_ctrls: mytrace2 totalAccess 74996123 totalHit 70302980 overflow 1392 evictTime 0
+660176202000: system.mem_ctrls: mytrace writeOverhead 273918165000 swap 4 write 6074830 4778304
+660176202000: system.mem_ctrls: mytrace2 totalAccess 75057661 totalHit 70361286 overflow 1393 evictTime 0
+661597477000: system.mem_ctrls: mytrace writeOverhead 274583500000 swap 4 write 6089788 4828864
+661597477000: system.mem_ctrls: mytrace2 totalAccess 75242586 totalHit 70536007 overflow 1396 evictTime 0
+662060830000: system.mem_ctrls: mytrace writeOverhead 274833285000 swap 4 write 6094771 4768512
+662060830000: system.mem_ctrls: mytrace2 totalAccess 75304150 totalHit 70594299 overflow 1427 evictTime 0
+663481220000: system.mem_ctrls: mytrace writeOverhead 275499035000 swap 4 write 6109729 4810496
+663481220000: system.mem_ctrls: mytrace2 totalAccess 75489028 totalHit 70769077 overflow 1431 evictTime 0
+665388121000: system.mem_ctrls: mytrace writeOverhead 276383105000 swap 4 write 6129670 4794816
+665388121000: system.mem_ctrls: mytrace2 totalAccess 75735570 totalHit 71002054 overflow 1432 evictTime 0
+668276070000: system.mem_ctrls: mytrace writeOverhead 277715305000 swap 4 write 6159579 4845248
+668276070000: system.mem_ctrls: mytrace2 totalAccess 76105522 totalHit 71351357 overflow 1438 evictTime 0
+669231541000: system.mem_ctrls: mytrace writeOverhead 278156450000 swap 4 write 6169553 4766272
+669231541000: system.mem_ctrls: mytrace2 totalAccess 76228764 totalHit 71467899 overflow 1438 evictTime 0
+670208681000: system.mem_ctrls: mytrace writeOverhead 278599970000 swap 4 write 6179525 4861952
+670208681000: system.mem_ctrls: mytrace2 totalAccess 76352119 totalHit 71584308 overflow 1439 evictTime 0
+672155012000: system.mem_ctrls: mytrace writeOverhead 279483700000 swap 4 write 6199466 4812992
+672155012000: system.mem_ctrls: mytrace2 totalAccess 76598713 totalHit 71817225 overflow 1439 evictTime 0
+673120830000: system.mem_ctrls: mytrace writeOverhead 279926210000 swap 4 write 6209434 4734080
+673120830000: system.mem_ctrls: mytrace2 totalAccess 76721975 totalHit 71933690 overflow 1440 evictTime 0
+673615744000: system.mem_ctrls: mytrace writeOverhead 280147710000 swap 4 write 6214418 4847296
+673615744000: system.mem_ctrls: mytrace2 totalAccess 76783664 totalHit 71991862 overflow 1440 evictTime 0
+678036695000: system.mem_ctrls: mytrace writeOverhead 282140330000 swap 4 write 6259286 4783424
+678036695000: system.mem_ctrls: mytrace2 totalAccess 77338463 totalHit 72515973 overflow 1445 evictTime 0
+679046232000: system.mem_ctrls: mytrace writeOverhead 282584670000 swap 4 write 6269254 4845248
+679046232000: system.mem_ctrls: mytrace2 totalAccess 77461876 totalHit 72632295 overflow 1446 evictTime 0
+679549947000: system.mem_ctrls: mytrace writeOverhead 282826790000 swap 4 write 6274242 4825088
+679549947000: system.mem_ctrls: mytrace2 totalAccess 77523541 totalHit 72690522 overflow 1468 evictTime 0
+681041706000: system.mem_ctrls: mytrace writeOverhead 283503120000 swap 4 write 6289198 4858816
+681041706000: system.mem_ctrls: mytrace2 totalAccess 77708570 totalHit 72865114 overflow 1481 evictTime 0
+681519922000: system.mem_ctrls: mytrace writeOverhead 283723930000 swap 4 write 6294180 4797120
+681519922000: system.mem_ctrls: mytrace2 totalAccess 77770127 totalHit 72923397 overflow 1482 evictTime 0
+682029306000: system.mem_ctrls: mytrace writeOverhead 283946715000 swap 4 write 6299162 4745920
+682029306000: system.mem_ctrls: mytrace2 totalAccess 77831839 totalHit 72981529 overflow 1483 evictTime 0
+683049648000: system.mem_ctrls: mytrace writeOverhead 284390485000 swap 4 write 6309136 4839552
+683049648000: system.mem_ctrls: mytrace2 totalAccess 77955298 totalHit 73097842 overflow 1483 evictTime 0
+684044195000: system.mem_ctrls: mytrace writeOverhead 284834820000 swap 4 write 6319101 4726464
+684044195000: system.mem_ctrls: mytrace2 totalAccess 78078628 totalHit 73214211 overflow 1485 evictTime 0
+684556836000: system.mem_ctrls: mytrace writeOverhead 285057815000 swap 4 write 6324087 4838528
+684556836000: system.mem_ctrls: mytrace2 totalAccess 78140365 totalHit 73272349 overflow 1486 evictTime 0
+685552356000: system.mem_ctrls: mytrace writeOverhead 285501810000 swap 4 write 6334057 4757888
+685552356000: system.mem_ctrls: mytrace2 totalAccess 78263678 totalHit 73388780 overflow 1488 evictTime 0
+686583483000: system.mem_ctrls: mytrace writeOverhead 285946995000 swap 4 write 6344032 4818304
+686583483000: system.mem_ctrls: mytrace2 totalAccess 78387173 totalHit 73505070 overflow 1489 evictTime 0
+687067215000: system.mem_ctrls: mytrace writeOverhead 286167305000 swap 4 write 6349016 4789184
+687067215000: system.mem_ctrls: mytrace2 totalAccess 78448765 totalHit 73563338 overflow 1489 evictTime 0
+687585925000: system.mem_ctrls: mytrace writeOverhead 286390510000 swap 4 write 6353999 4737280
+687585925000: system.mem_ctrls: mytrace2 totalAccess 78510513 totalHit 73621442 overflow 1490 evictTime 0
+692699459000: system.mem_ctrls: mytrace writeOverhead 288609265000 swap 4 write 6403861 4774656
+692699459000: system.mem_ctrls: mytrace2 totalAccess 79127635 totalHit 74203169 overflow 1492 evictTime 0
+693752390000: system.mem_ctrls: mytrace writeOverhead 289053895000 swap 4 write 6413834 4866432
+693752390000: system.mem_ctrls: mytrace2 totalAccess 79251159 totalHit 74319413 overflow 1492 evictTime 0
+694240138000: system.mem_ctrls: mytrace writeOverhead 289274060000 swap 4 write 6418820 4803968
+694240138000: system.mem_ctrls: mytrace2 totalAccess 79312746 totalHit 74377702 overflow 1492 evictTime 0
+694768843000: system.mem_ctrls: mytrace writeOverhead 289496480000 swap 4 write 6423803 4751552
+694768843000: system.mem_ctrls: mytrace2 totalAccess 79374509 totalHit 74435791 overflow 1492 evictTime 0
+697382957000: system.mem_ctrls: mytrace writeOverhead 290611265000 swap 4 write 6448733 4838784
+697382957000: system.mem_ctrls: mytrace2 totalAccess 79683197 totalHit 74726508 overflow 1497 evictTime 0
+698406685000: system.mem_ctrls: mytrace writeOverhead 291084475000 swap 4 write 6458702 4756288
+698406685000: system.mem_ctrls: mytrace2 totalAccess 79806545 totalHit 74842899 overflow 1529 evictTime 0
+700503744000: system.mem_ctrls: mytrace writeOverhead 291975820000 swap 4 write 6478645 4731136
+700503744000: system.mem_ctrls: mytrace2 totalAccess 80053452 totalHit 75075516 overflow 1533 evictTime 0
+701039780000: system.mem_ctrls: mytrace writeOverhead 292199340000 swap 4 write 6483633 3760448
+701039780000: system.mem_ctrls: mytrace2 totalAccess 80115234 totalHit 75133625 overflow 1534 evictTime 0
+701545722000: system.mem_ctrls: mytrace writeOverhead 292419975000 swap 4 write 6488618 4830784
+701545722000: system.mem_ctrls: mytrace2 totalAccess 80176862 totalHit 75191864 overflow 1534 evictTime 0
+703151636000: system.mem_ctrls: mytrace writeOverhead 293089545000 swap 4 write 6503574 4816576
+703151636000: system.mem_ctrls: mytrace2 totalAccess 80362205 totalHit 75366147 overflow 1536 evictTime 0
+703646710000: system.mem_ctrls: mytrace writeOverhead 293312040000 swap 4 write 6508556 4786816
+703646710000: system.mem_ctrls: mytrace2 totalAccess 80423819 totalHit 75424378 overflow 1538 evictTime 0
+705774040000: system.mem_ctrls: mytrace writeOverhead 294203860000 swap 4 write 6528498 4761664
+705774040000: system.mem_ctrls: mytrace2 totalAccess 80670920 totalHit 75656782 overflow 1540 evictTime 0
+706866476000: system.mem_ctrls: mytrace writeOverhead 294650910000 swap 4 write 6538472 4851840
+706866476000: system.mem_ctrls: mytrace2 totalAccess 80794566 totalHit 75772910 overflow 1541 evictTime 0
+707911628000: system.mem_ctrls: mytrace writeOverhead 295094505000 swap 4 write 6548438 4736384
+707911628000: system.mem_ctrls: mytrace2 totalAccess 80917998 totalHit 75889189 overflow 1541 evictTime 0
+708459483000: system.mem_ctrls: mytrace writeOverhead 295318040000 swap 4 write 6553423 4847232
+708459483000: system.mem_ctrls: mytrace2 totalAccess 80979855 totalHit 75947202 overflow 1541 evictTime 0
+711662705000: system.mem_ctrls: mytrace writeOverhead 296653770000 swap 4 write 6583338 4738944
+711662705000: system.mem_ctrls: mytrace2 totalAccess 81350503 totalHit 76295850 overflow 1542 evictTime 0
+712768758000: system.mem_ctrls: mytrace writeOverhead 297100430000 swap 4 write 6593312 4825856
+712768758000: system.mem_ctrls: mytrace2 totalAccess 81474124 totalHit 76412006 overflow 1543 evictTime 0
+714386339000: system.mem_ctrls: mytrace writeOverhead 297769085000 swap 4 write 6608270 4856832
+714386339000: system.mem_ctrls: mytrace2 totalAccess 81659542 totalHit 76586236 overflow 1543 evictTime 0
+718194615000: system.mem_ctrls: mytrace writeOverhead 299362235000 swap 4 write 6643169 4858304
+718194615000: system.mem_ctrls: mytrace2 totalAccess 82091988 totalHit 76992950 overflow 1580 evictTime 0
+719261489000: system.mem_ctrls: mytrace writeOverhead 299810070000 swap 4 write 6653135 4742080
+719261489000: system.mem_ctrls: mytrace2 totalAccess 82215448 totalHit 77109204 overflow 1584 evictTime 0
+724243428000: system.mem_ctrls: mytrace writeOverhead 301824190000 swap 4 write 6698012 4827392
+724243428000: system.mem_ctrls: mytrace2 totalAccess 82771918 totalHit 77631701 overflow 1590 evictTime 0
+726985885000: system.mem_ctrls: mytrace writeOverhead 302941770000 swap 4 write 6722937 4741184
+726985885000: system.mem_ctrls: mytrace2 totalAccess 83080963 totalHit 77922030 overflow 1593 evictTime 0
+728133176000: system.mem_ctrls: mytrace writeOverhead 303389740000 swap 4 write 6732912 4826560
+728133176000: system.mem_ctrls: mytrace2 totalAccess 83204761 totalHit 78038014 overflow 1593 evictTime 0
+729802778000: system.mem_ctrls: mytrace writeOverhead 304060135000 swap 4 write 6747870 4856896
+729802778000: system.mem_ctrls: mytrace2 totalAccess 83390314 totalHit 78212103 overflow 1593 evictTime 0
+732055106000: system.mem_ctrls: mytrace writeOverhead 304955770000 swap 4 write 6767813 4825344
+732055106000: system.mem_ctrls: mytrace2 totalAccess 83637717 totalHit 78444219 overflow 1595 evictTime 0
+735425284000: system.mem_ctrls: mytrace writeOverhead 306298475000 swap 4 write 6797723 4850688
+735425284000: system.mem_ctrls: mytrace2 totalAccess 84008903 totalHit 78792280 overflow 1596 evictTime 0
+736008993000: system.mem_ctrls: mytrace writeOverhead 306523335000 swap 4 write 6802714 4824320
+736008993000: system.mem_ctrls: mytrace2 totalAccess 84070802 totalHit 78850295 overflow 1597 evictTime 0
+738817387000: system.mem_ctrls: mytrace writeOverhead 307674500000 swap 4 write 6827639 4739712
+738817387000: system.mem_ctrls: mytrace2 totalAccess 84380079 totalHit 79140375 overflow 1632 evictTime 0
+739997301000: system.mem_ctrls: mytrace writeOverhead 308126015000 swap 4 write 6837613 4823744
+739997301000: system.mem_ctrls: mytrace2 totalAccess 84503931 totalHit 79256292 overflow 1635 evictTime 0
+742231632000: system.mem_ctrls: mytrace writeOverhead 309020900000 swap 4 write 6857555 4792576
+742231632000: system.mem_ctrls: mytrace2 totalAccess 84751268 totalHit 79488452 overflow 1637 evictTime 0
+743422936000: system.mem_ctrls: mytrace writeOverhead 309472310000 swap 4 write 6867521 4849536
+743422936000: system.mem_ctrls: mytrace2 totalAccess 84875170 totalHit 79604256 overflow 1639 evictTime 0
+745741583000: system.mem_ctrls: mytrace writeOverhead 310371690000 swap 4 write 6887472 4822080
+745741583000: system.mem_ctrls: mytrace2 totalAccess 85122728 totalHit 79836276 overflow 1643 evictTime 0
+746867589000: system.mem_ctrls: mytrace writeOverhead 310817900000 swap 4 write 6897438 4738496
+746867589000: system.mem_ctrls: mytrace2 totalAccess 85246366 totalHit 79952351 overflow 1643 evictTime 0
+749803157000: system.mem_ctrls: mytrace writeOverhead 311939225000 swap 4 write 6922373 4821184
+749803157000: system.mem_ctrls: mytrace2 totalAccess 85555890 totalHit 80242275 overflow 1644 evictTime 0
+750965434000: system.mem_ctrls: mytrace writeOverhead 312386895000 swap 4 write 6932340 6273728
+750965434000: system.mem_ctrls: mytrace2 totalAccess 85679629 totalHit 80358262 overflow 1644 evictTime 0
+758977619000: system.mem_ctrls: mytrace writeOverhead 315651555000 swap 4 write 7007339 20675136
+758977619000: system.mem_ctrls: mytrace2 totalAccess 86600809 totalHit 81236964 overflow 1644 evictTime 0
+770366484000: system.mem_ctrls: mytrace writeOverhead 321745325000 swap 4 write 7147338 11073984
+770366484000: system.mem_ctrls: mytrace2 totalAccess 88320330 totalHit 82877239 overflow 1644 evictTime 0
+= black
+
+=8 3 G8
+
+784205362000: system.mem_ctrls: mytrace writeOverhead 328966810000 swap 4 write 7311579 4718336
+784205362000: system.mem_ctrls: mytrace2 totalAccess 90348651 totalHit 84801753 overflow 1646 evictTime 0
+784670483000: system.mem_ctrls: mytrace writeOverhead 329187915000 swap 4 write 7316568 4866432
+784670483000: system.mem_ctrls: mytrace2 totalAccess 90410313 totalHit 84859991 overflow 1646 evictTime 0
+786064905000: system.mem_ctrls: mytrace writeOverhead 329850005000 swap 4 write 7331516 4711040
+786064905000: system.mem_ctrls: mytrace2 totalAccess 90595115 totalHit 85034754 overflow 1647 evictTime 0
+786533380000: system.mem_ctrls: mytrace writeOverhead 330070855000 swap 4 write 7336507 4859328
+786533380000: system.mem_ctrls: mytrace2 totalAccess 90656763 totalHit 85093023 overflow 1647 evictTime 0
+787465522000: system.mem_ctrls: mytrace writeOverhead 330512295000 swap 4 write 7346471 4751424
+787465522000: system.mem_ctrls: mytrace2 totalAccess 90779941 totalHit 85209545 overflow 1648 evictTime 0
+787938708000: system.mem_ctrls: mytrace writeOverhead 330734415000 swap 4 write 7351454 4703488
+787938708000: system.mem_ctrls: mytrace2 totalAccess 90841602 totalHit 85267739 overflow 1649 evictTime 0
+789822126000: system.mem_ctrls: mytrace writeOverhead 331619955000 swap 4 write 7371395 4694400
+789822126000: system.mem_ctrls: mytrace2 totalAccess 91088113 totalHit 85500737 overflow 1652 evictTime 0
+790296287000: system.mem_ctrls: mytrace writeOverhead 331864645000 swap 4 write 7376386 4841344
+790296287000: system.mem_ctrls: mytrace2 totalAccess 91149752 totalHit 85559015 overflow 1677 evictTime 0
+791236386000: system.mem_ctrls: mytrace writeOverhead 332315435000 swap 4 write 7386352 4731456
+791236386000: system.mem_ctrls: mytrace2 totalAccess 91272984 totalHit 85675500 overflow 1687 evictTime 0
+791714584000: system.mem_ctrls: mytrace writeOverhead 332537535000 swap 4 write 7391336 4846080
+791714584000: system.mem_ctrls: mytrace2 totalAccess 91334645 totalHit 85733701 overflow 1688 evictTime 0
+793621811000: system.mem_ctrls: mytrace writeOverhead 333422265000 swap 4 write 7411283 4865984
+793621811000: system.mem_ctrls: mytrace2 totalAccess 91581251 totalHit 85966654 overflow 1689 evictTime 0
+796495758000: system.mem_ctrls: mytrace writeOverhead 334753215000 swap 4 write 7441194 4742336
+796495758000: system.mem_ctrls: mytrace2 totalAccess 91951105 totalHit 86316072 overflow 1695 evictTime 0
+797471203000: system.mem_ctrls: mytrace writeOverhead 335195475000 swap 4 write 7451168 4839168
+797471203000: system.mem_ctrls: mytrace2 totalAccess 92074441 totalHit 86432520 overflow 1695 evictTime 0
+799410188000: system.mem_ctrls: mytrace writeOverhead 336079995000 swap 4 write 7471110 4823680
+799410188000: system.mem_ctrls: mytrace2 totalAccess 92321025 totalHit 86665456 overflow 1696 evictTime 0
+799881416000: system.mem_ctrls: mytrace writeOverhead 336300180000 swap 4 write 7476093 4764032
+799881416000: system.mem_ctrls: mytrace2 totalAccess 92382602 totalHit 86723732 overflow 1696 evictTime 0
+802830482000: system.mem_ctrls: mytrace writeOverhead 337629535000 swap 4 write 7506008 4812288
+802830482000: system.mem_ctrls: mytrace2 totalAccess 92752650 totalHit 87072984 overflow 1698 evictTime 0
+803802915000: system.mem_ctrls: mytrace writeOverhead 338070925000 swap 4 write 7515973 4733696
+803802915000: system.mem_ctrls: mytrace2 totalAccess 92875897 totalHit 87189449 overflow 1698 evictTime 0
+804800907000: system.mem_ctrls: mytrace writeOverhead 338513565000 swap 4 write 7525947 4861056
+804800907000: system.mem_ctrls: mytrace2 totalAccess 92999266 totalHit 87305858 overflow 1698 evictTime 0
+805275678000: system.mem_ctrls: mytrace writeOverhead 338735740000 swap 4 write 7530929 4767808
+805275678000: system.mem_ctrls: mytrace2 totalAccess 93060848 totalHit 87364122 overflow 1700 evictTime 0
+806280816000: system.mem_ctrls: mytrace writeOverhead 339180045000 swap 4 write 7540900 4862400
+806280816000: system.mem_ctrls: mytrace2 totalAccess 93184270 totalHit 87480446 overflow 1701 evictTime 0
+806757059000: system.mem_ctrls: mytrace writeOverhead 339400900000 swap 4 write 7545884 4800640
+806757059000: system.mem_ctrls: mytrace2 totalAccess 93245832 totalHit 87538741 overflow 1702 evictTime 0
+807766912000: system.mem_ctrls: mytrace writeOverhead 339846450000 swap 4 write 7555848 4698240
+807766912000: system.mem_ctrls: mytrace2 totalAccess 93369263 totalHit 87655002 overflow 1704 evictTime 0
+808271238000: system.mem_ctrls: mytrace writeOverhead 340096600000 swap 4 write 7560839 4843136
+808271238000: system.mem_ctrls: mytrace2 totalAccess 93430956 totalHit 87713223 overflow 1734 evictTime 0
+811262162000: system.mem_ctrls: mytrace writeOverhead 341429625000 swap 4 write 7590743 4707968
+811262162000: system.mem_ctrls: mytrace2 totalAccess 93800945 totalHit 88062425 overflow 1741 evictTime 0
+812765298000: system.mem_ctrls: mytrace writeOverhead 342096750000 swap 4 write 7605698 4737216
+812765298000: system.mem_ctrls: mytrace2 totalAccess 93985934 totalHit 88237048 overflow 1745 evictTime 0
+813789372000: system.mem_ctrls: mytrace writeOverhead 342539540000 swap 4 write 7615672 4826624
+813789372000: system.mem_ctrls: mytrace2 totalAccess 94109321 totalHit 88353436 overflow 1745 evictTime 0
+814271730000: system.mem_ctrls: mytrace writeOverhead 342761795000 swap 4 write 7620655 4765504
+814271730000: system.mem_ctrls: mytrace2 totalAccess 94170911 totalHit 88411700 overflow 1747 evictTime 0
+815301352000: system.mem_ctrls: mytrace writeOverhead 343205080000 swap 4 write 7630630 4856128
+815301352000: system.mem_ctrls: mytrace2 totalAccess 94294332 totalHit 88528065 overflow 1747 evictTime 0
+816818759000: system.mem_ctrls: mytrace writeOverhead 343869730000 swap 4 write 7645580 6095808
+816818759000: system.mem_ctrls: mytrace2 totalAccess 94479345 totalHit 88702632 overflow 1748 evictTime 0
+817820273000: system.mem_ctrls: mytrace writeOverhead 344311535000 swap 4 write 7655555 4766656
+817820273000: system.mem_ctrls: mytrace2 totalAccess 94602644 totalHit 88819117 overflow 1748 evictTime 0
+818861129000: system.mem_ctrls: mytrace writeOverhead 344755260000 swap 4 write 7665529 4823104
+818861129000: system.mem_ctrls: mytrace2 totalAccess 94726097 totalHit 88935438 overflow 1748 evictTime 0
+821927001000: system.mem_ctrls: mytrace writeOverhead 346084680000 swap 4 write 7695440 4710144
+821927001000: system.mem_ctrls: mytrace2 totalAccess 95096149 totalHit 89284640 overflow 1750 evictTime 0
+822449757000: system.mem_ctrls: mytrace writeOverhead 346306360000 swap 4 write 7700431 4851456
+822449757000: system.mem_ctrls: mytrace2 totalAccess 95157866 totalHit 89342838 overflow 1750 evictTime 0
+823993607000: system.mem_ctrls: mytrace writeOverhead 346972655000 swap 4 write 7715384 3760384
+823993607000: system.mem_ctrls: mytrace2 totalAccess 95342938 totalHit 89517367 overflow 1752 evictTime 0
+825010700000: system.mem_ctrls: mytrace writeOverhead 347417265000 swap 4 write 7725352 4756096
+825010700000: system.mem_ctrls: mytrace2 totalAccess 95466303 totalHit 89633727 overflow 1754 evictTime 0
+825542652000: system.mem_ctrls: mytrace writeOverhead 347639970000 swap 4 write 7730334 4701248
+825542652000: system.mem_ctrls: mytrace2 totalAccess 95528088 totalHit 89691785 overflow 1754 evictTime 0
+828121112000: system.mem_ctrls: mytrace writeOverhead 348783710000 swap 4 write 7755266 4801856
+828121112000: system.mem_ctrls: mytrace2 totalAccess 95836635 totalHit 89982668 overflow 1791 evictTime 0
+829194356000: system.mem_ctrls: mytrace writeOverhead 349229340000 swap 4 write 7765233 4856064
+829194356000: system.mem_ctrls: mytrace2 totalAccess 95960228 totalHit 90098795 overflow 1791 evictTime 0
+829728723000: system.mem_ctrls: mytrace writeOverhead 349451605000 swap 4 write 7770224 4832192
+829728723000: system.mem_ctrls: mytrace2 totalAccess 96021995 totalHit 90156945 overflow 1791 evictTime 0
+832878267000: system.mem_ctrls: mytrace writeOverhead 350789720000 swap 4 write 7800132 4846848
+832878267000: system.mem_ctrls: mytrace2 totalAccess 96392508 totalHit 90505671 overflow 1796 evictTime 0
+833408533000: system.mem_ctrls: mytrace writeOverhead 351013105000 swap 4 write 7805122 4828608
+833408533000: system.mem_ctrls: mytrace2 totalAccess 96454208 totalHit 90563878 overflow 1798 evictTime 0
+834461468000: system.mem_ctrls: mytrace writeOverhead 351458085000 swap 4 write 7815088 4705984
+834461468000: system.mem_ctrls: mytrace2 totalAccess 96577747 totalHit 90680051 overflow 1798 evictTime 0
+835500726000: system.mem_ctrls: mytrace writeOverhead 351902740000 swap 4 write 7825063 4783744
+835500726000: system.mem_ctrls: mytrace2 totalAccess 96701201 totalHit 90796379 overflow 1799 evictTime 0
+836594380000: system.mem_ctrls: mytrace writeOverhead 352349520000 swap 4 write 7835034 4870272
+836594380000: system.mem_ctrls: mytrace2 totalAccess 96824895 totalHit 90912436 overflow 1799 evictTime 0
+839791875000: system.mem_ctrls: mytrace writeOverhead 353686570000 swap 4 write 7864945 4719872
+839791875000: system.mem_ctrls: mytrace2 totalAccess 97195562 totalHit 91261018 overflow 1801 evictTime 0
+842506682000: system.mem_ctrls: mytrace writeOverhead 354803230000 swap 4 write 7889879 4825472
+842506682000: system.mem_ctrls: mytrace2 totalAccess 97504713 totalHit 91551304 overflow 1802 evictTime 0
+844630458000: system.mem_ctrls: mytrace writeOverhead 355697820000 swap 4 write 7909822 4788800
+844630458000: system.mem_ctrls: mytrace2 totalAccess 97751868 totalHit 91783662 overflow 1806 evictTime 0
+845750761000: system.mem_ctrls: mytrace writeOverhead 356147200000 swap 4 write 7919793 3761280
+845750761000: system.mem_ctrls: mytrace2 totalAccess 97875687 totalHit 91899592 overflow 1807 evictTime 0
+847945980000: system.mem_ctrls: mytrace writeOverhead 357075485000 swap 4 write 7939739 4842944
+847945980000: system.mem_ctrls: mytrace2 totalAccess 98123165 totalHit 92131663 overflow 1842 evictTime 0
+849587933000: system.mem_ctrls: mytrace writeOverhead 357747575000 swap 4 write 7954694 4866560
+849587933000: system.mem_ctrls: mytrace2 totalAccess 98308773 totalHit 92305678 overflow 1843 evictTime 0
+850096177000: system.mem_ctrls: mytrace writeOverhead 357968900000 swap 4 write 7959681 4802816
+850096177000: system.mem_ctrls: mytrace2 totalAccess 98370453 totalHit 92363882 overflow 1843 evictTime 0
+852314408000: system.mem_ctrls: mytrace writeOverhead 358869385000 swap 4 write 7979623 4770880
+852314408000: system.mem_ctrls: mytrace2 totalAccess 98618007 totalHit 92595838 overflow 1848 evictTime 0
+855117848000: system.mem_ctrls: mytrace writeOverhead 359992045000 swap 4 write 8004550 4848000
+855117848000: system.mem_ctrls: mytrace2 totalAccess 98927548 totalHit 92885686 overflow 1850 evictTime 0
+856204605000: system.mem_ctrls: mytrace writeOverhead 360439635000 swap 4 write 8014524 4761984
+856204605000: system.mem_ctrls: mytrace2 totalAccess 99051232 totalHit 93001774 overflow 1851 evictTime 0
+856782203000: system.mem_ctrls: mytrace writeOverhead 360664605000 swap 4 write 8019507 4707136
+856782203000: system.mem_ctrls: mytrace2 totalAccess 99113199 totalHit 93059658 overflow 1851 evictTime 0
+857358760000: system.mem_ctrls: mytrace writeOverhead 360889380000 swap 4 write 8024498 4815360
+857358760000: system.mem_ctrls: mytrace2 totalAccess 99175165 totalHit 93117605 overflow 1851 evictTime 0
+860124722000: system.mem_ctrls: mytrace writeOverhead 362008225000 swap 4 write 8049424 4753024
+860124722000: system.mem_ctrls: mytrace2 totalAccess 99484473 totalHit 93407678 overflow 1852 evictTime 0
+860706918000: system.mem_ctrls: mytrace writeOverhead 362234175000 swap 4 write 8054407 4698176
+860706918000: system.mem_ctrls: mytrace2 totalAccess 99546442 totalHit 93465560 overflow 1853 evictTime 0
+865249856000: system.mem_ctrls: mytrace writeOverhead 364029635000 swap 4 write 8094301 4825152
+865249856000: system.mem_ctrls: mytrace2 totalAccess 100041607 totalHit 93929493 overflow 1857 evictTime 0
+868073034000: system.mem_ctrls: mytrace writeOverhead 365178275000 swap 4 write 8119236 6458560
+868073034000: system.mem_ctrls: mytrace2 totalAccess 100350827 totalHit 94219713 overflow 1890 evictTime 0
+876011530000: system.mem_ctrls: mytrace writeOverhead 368443000000 swap 4 write 8194235 20859904
+876011530000: system.mem_ctrls: mytrace2 totalAccess 101272013 totalHit 95098407 overflow 1890 evictTime 0
+887382623000: system.mem_ctrls: mytrace writeOverhead 374536815000 swap 4 write 8334234 11258752
+887382623000: system.mem_ctrls: mytrace2 totalAccess 102991538 totalHit 96738670 overflow 1890 evictTime 0
+= black
+
+899066206000: system.mem_ctrls: mytrace writeOverhead 381090910000 swap 4 write 8484170 5582848
+899066206000: system.mem_ctrls: mytrace2 totalAccess 104835667 totalHit 98493786 overflow 1891 evictTime 0
+=9 0
+
+900749064000: system.mem_ctrls: mytrace writeOverhead 381757700000 swap 4 write 8498777 4826432
+900749064000: system.mem_ctrls: mytrace2 totalAccess 105020290 totalHit 98666005 overflow 1895 evictTime 0
+901208156000: system.mem_ctrls: mytrace writeOverhead 381977455000 swap 4 write 8503759 4766656
+901208156000: system.mem_ctrls: mytrace2 totalAccess 105081832 totalHit 98724308 overflow 1895 evictTime 0
+903075570000: system.mem_ctrls: mytrace writeOverhead 382864940000 swap 4 write 8523700 4759424
+903075570000: system.mem_ctrls: mytrace2 totalAccess 105328346 totalHit 98957292 overflow 1900 evictTime 0
+903548478000: system.mem_ctrls: mytrace writeOverhead 383086245000 swap 4 write 8528683 4711232
+903548478000: system.mem_ctrls: mytrace2 totalAccess 105390019 totalHit 99015468 overflow 1900 evictTime 0
+904953480000: system.mem_ctrls: mytrace writeOverhead 383750530000 swap 4 write 8543641 4750400
+904953480000: system.mem_ctrls: mytrace2 totalAccess 105574933 totalHit 99190201 overflow 1902 evictTime 0
+905903097000: system.mem_ctrls: mytrace writeOverhead 384193065000 swap 4 write 8553615 4816768
+905903097000: system.mem_ctrls: mytrace2 totalAccess 105698289 totalHit 99306624 overflow 1902 evictTime 0
+906843989000: system.mem_ctrls: mytrace writeOverhead 384635385000 swap 4 write 8563582 4740608
+906843989000: system.mem_ctrls: mytrace2 totalAccess 105821537 totalHit 99423100 overflow 1903 evictTime 0
+907802867000: system.mem_ctrls: mytrace writeOverhead 385078785000 swap 4 write 8573557 4839168
+907802867000: system.mem_ctrls: mytrace2 totalAccess 105944966 totalHit 99539460 overflow 1903 evictTime 0
+910183802000: system.mem_ctrls: mytrace writeOverhead 386186530000 swap 4 write 8598482 4767040
+910183802000: system.mem_ctrls: mytrace2 totalAccess 106253370 totalHit 99830444 overflow 1904 evictTime 0
+911155935000: system.mem_ctrls: mytrace writeOverhead 386632215000 swap 4 write 8608455 4864512
+911155935000: system.mem_ctrls: mytrace2 totalAccess 106376898 totalHit 99946688 overflow 1905 evictTime 0
+913562057000: system.mem_ctrls: mytrace writeOverhead 387743305000 swap 4 write 8633384 4789056
+913562057000: system.mem_ctrls: mytrace2 totalAccess 106685507 totalHit 100237485 overflow 1907 evictTime 0
+914054286000: system.mem_ctrls: mytrace writeOverhead 387967545000 swap 4 write 8638367 4739072
+914054286000: system.mem_ctrls: mytrace2 totalAccess 106747337 totalHit 100295508 overflow 1908 evictTime 0
+916504772000: system.mem_ctrls: mytrace writeOverhead 389114775000 swap 4 write 8663298 4869888
+916504772000: system.mem_ctrls: mytrace2 totalAccess 107056461 totalHit 100585809 overflow 1941 evictTime 0
+918472461000: system.mem_ctrls: mytrace writeOverhead 390011970000 swap 4 write 8683242 4818432
+918472461000: system.mem_ctrls: mytrace2 totalAccess 107303762 totalHit 100818037 overflow 1946 evictTime 0
+919950610000: system.mem_ctrls: mytrace writeOverhead 390684075000 swap 4 write 8698191 4851008
+919950610000: system.mem_ctrls: mytrace2 totalAccess 107489290 totalHit 100992075 overflow 1948 evictTime 0
+921434604000: system.mem_ctrls: mytrace writeOverhead 391357835000 swap 4 write 8713146 4719040
+921434604000: system.mem_ctrls: mytrace2 totalAccess 107674883 totalHit 101166104 overflow 1951 evictTime 0
+921940743000: system.mem_ctrls: mytrace writeOverhead 391582985000 swap 4 write 8718135 4863744
+921940743000: system.mem_ctrls: mytrace2 totalAccess 107736873 totalHit 101224012 overflow 1951 evictTime 0
+922418329000: system.mem_ctrls: mytrace writeOverhead 391806590000 swap 4 write 8723119 4801856
+922418329000: system.mem_ctrls: mytrace2 totalAccess 107798578 totalHit 101282167 overflow 1953 evictTime 0
+926483219000: system.mem_ctrls: mytrace writeOverhead 393610035000 swap 4 write 8762998 6296000
+926483219000: system.mem_ctrls: mytrace2 totalAccess 108294550 totalHit 101745170 overflow 1954 evictTime 0
+934486534000: system.mem_ctrls: mytrace writeOverhead 396874655000 swap 4 write 8837997 20697408
+934486534000: system.mem_ctrls: mytrace2 totalAccess 109215727 totalHit 102623897 overflow 1954 evictTime 0
+945874998000: system.mem_ctrls: mytrace writeOverhead 402968415000 swap 4 write 8977996 11096256
+945874998000: system.mem_ctrls: mytrace2 totalAccess 110935248 totalHit 104264195 overflow 1954 evictTime 0
+957284004000: system.mem_ctrls: mytrace writeOverhead 409499990000 swap 4 write 9127964 5475328
+957284004000: system.mem_ctrls: mytrace2 totalAccess 112777748 totalHit 106021227 overflow 1954 evictTime 0
+= black
+
+958636755000: system.mem_ctrls: mytrace writeOverhead 409781500000 swap 4 write 9132932 22720
+958636755000: system.mem_ctrls: mytrace2 totalAccess 112841881 totalHit 106073163 overflow 1959 evictTime 0
+960845004000: system.mem_ctrls: mytrace writeOverhead 410086745000 swap 4 write 9137831 37632
+960845004000: system.mem_ctrls: mytrace2 totalAccess 112905306 totalHit 106121138 overflow 1969 evictTime 0
+=10 1 P11
+
+963825458000: system.mem_ctrls: mytrace writeOverhead 410646415000 swap 4 write 9147620 4830144
+963825458000: system.mem_ctrls: mytrace2 totalAccess 113029945 totalHit 106222302 overflow 1986 evictTime 0
+964766251000: system.mem_ctrls: mytrace writeOverhead 411085530000 swap 4 write 9157495 4720704
+964766251000: system.mem_ctrls: mytrace2 totalAccess 113152928 totalHit 106338303 overflow 1986 evictTime 0
+965697348000: system.mem_ctrls: mytrace writeOverhead 411526900000 swap 4 write 9167469 4824704
+965697348000: system.mem_ctrls: mytrace2 totalAccess 113276193 totalHit 106454811 overflow 1986 evictTime 0
+967555091000: system.mem_ctrls: mytrace writeOverhead 412410765000 swap 4 write 9187411 4819136
+967555091000: system.mem_ctrls: mytrace2 totalAccess 113522635 totalHit 106687867 overflow 1988 evictTime 0
+968494992000: system.mem_ctrls: mytrace writeOverhead 412855405000 swap 4 write 9197378 4714752
+968494992000: system.mem_ctrls: mytrace2 totalAccess 113645909 totalHit 106804315 overflow 1991 evictTime 0
+969428032000: system.mem_ctrls: mytrace writeOverhead 413295695000 swap 4 write 9207353 4803840
+969428032000: system.mem_ctrls: mytrace2 totalAccess 113769084 totalHit 106920923 overflow 1991 evictTime 0
+971317279000: system.mem_ctrls: mytrace writeOverhead 414210820000 swap 4 write 9227295 4797632
+971317279000: system.mem_ctrls: mytrace2 totalAccess 114015648 totalHit 107153873 overflow 2024 evictTime 0
+971795761000: system.mem_ctrls: mytrace writeOverhead 414433120000 swap 4 write 9232278 4749952
+971795761000: system.mem_ctrls: mytrace2 totalAccess 114077320 totalHit 107212054 overflow 2025 evictTime 0
+972753406000: system.mem_ctrls: mytrace writeOverhead 414878635000 swap 4 write 9242252 4817344
+972753406000: system.mem_ctrls: mytrace2 totalAccess 114200681 totalHit 107328472 overflow 2028 evictTime 0
+973699558000: system.mem_ctrls: mytrace writeOverhead 415321020000 swap 4 write 9252218 4742080
+973699558000: system.mem_ctrls: mytrace2 totalAccess 114323930 totalHit 107444938 overflow 2029 evictTime 0
+975614366000: system.mem_ctrls: mytrace writeOverhead 416209570000 swap 4 write 9272161 4734016
+975614366000: system.mem_ctrls: mytrace2 totalAccess 114570596 totalHit 107677798 overflow 2033 evictTime 0
+976099122000: system.mem_ctrls: mytrace writeOverhead 416431255000 swap 4 write 9277144 4849792
+976099122000: system.mem_ctrls: mytrace2 totalAccess 114632297 totalHit 107735949 overflow 2033 evictTime 0
+977540893000: system.mem_ctrls: mytrace writeOverhead 417095385000 swap 4 write 9292103 4725888
+977540893000: system.mem_ctrls: mytrace2 totalAccess 114817272 totalHit 107910624 overflow 2034 evictTime 0
+978984422000: system.mem_ctrls: mytrace writeOverhead 417760400000 swap 4 write 9307062 4765056
+978984422000: system.mem_ctrls: mytrace2 totalAccess 115002244 totalHit 108085303 overflow 2036 evictTime 0
+979475353000: system.mem_ctrls: mytrace writeOverhead 417983090000 swap 4 write 9312045 4716288
+979475353000: system.mem_ctrls: mytrace2 totalAccess 115063949 totalHit 108143451 overflow 2037 evictTime 0
+979964238000: system.mem_ctrls: mytrace writeOverhead 418204550000 swap 4 write 9317033 4863424
+979964238000: system.mem_ctrls: mytrace2 totalAccess 115125642 totalHit 108201651 overflow 2037 evictTime 0
+980433209000: system.mem_ctrls: mytrace writeOverhead 418424430000 swap 4 write 9322019 4802560
+980433209000: system.mem_ctrls: mytrace2 totalAccess 115187204 totalHit 108259963 overflow 2037 evictTime 0
+980990179000: system.mem_ctrls: mytrace writeOverhead 418644675000 swap 4 write 9327010 6477440
+980990179000: system.mem_ctrls: mytrace2 totalAccess 115248798 totalHit 108318285 overflow 2037 evictTime 0
+988925296000: system.mem_ctrls: mytrace writeOverhead 421909345000 swap 4 write 9402009 20878784
+988925296000: system.mem_ctrls: mytrace2 totalAccess 116169980 totalHit 109196983 overflow 2037 evictTime 0
+1000298326000: system.mem_ctrls: mytrace writeOverhead 428003220000 swap 4 write 9542008 11277632
+1000298326000: system.mem_ctrls: mytrace2 totalAccess 117889510 totalHit 110837242 overflow 2037 evictTime 0
+= black
+
+=11 0
+
+1012096904000: system.mem_ctrls: mytrace writeOverhead 434582070000 swap 4 write 9691881 4738624
+1012096904000: system.mem_ctrls: mytrace2 totalAccess 119734994 totalHit 112589619 overflow 2038 evictTime 0
+1013511402000: system.mem_ctrls: mytrace writeOverhead 435242510000 swap 4 write 9706761 4775040
+1013511402000: system.mem_ctrls: mytrace2 totalAccess 119919681 totalHit 112763949 overflow 2038 evictTime 0
+1014445689000: system.mem_ctrls: mytrace writeOverhead 435684725000 swap 4 write 9716729 4846848
+1014445689000: system.mem_ctrls: mytrace2 totalAccess 120042997 totalHit 112880359 overflow 2038 evictTime 0
+1015373552000: system.mem_ctrls: mytrace writeOverhead 436126475000 swap 4 write 9726703 4772928
+1015373552000: system.mem_ctrls: mytrace2 totalAccess 120166205 totalHit 112996920 overflow 2039 evictTime 0
+1016784519000: system.mem_ctrls: mytrace writeOverhead 436793680000 swap 4 write 9741662 4827584
+1016784519000: system.mem_ctrls: mytrace2 totalAccess 120351119 totalHit 113171652 overflow 2044 evictTime 0
+1018190811000: system.mem_ctrls: mytrace writeOverhead 437455530000 swap 4 write 9756617 5753600
+1018190811000: system.mem_ctrls: mytrace2 totalAccess 120535972 totalHit 113346414 overflow 2044 evictTime 0
+1019127451000: system.mem_ctrls: mytrace writeOverhead 437897965000 swap 4 write 9766586 4760960
+1019127451000: system.mem_ctrls: mytrace2 totalAccess 120659152 totalHit 113462965 overflow 2046 evictTime 0
+1019603338000: system.mem_ctrls: mytrace writeOverhead 438120095000 swap 4 write 9771569 4713024
+1019603338000: system.mem_ctrls: mytrace2 totalAccess 120720811 totalHit 113521157 overflow 2047 evictTime 0
+1021976801000: system.mem_ctrls: mytrace writeOverhead 439258740000 swap 4 write 9796504 4852224
+1021976801000: system.mem_ctrls: mytrace2 totalAccess 121029085 totalHit 113812324 overflow 2082 evictTime 0
+1023407786000: system.mem_ctrls: mytrace writeOverhead 439923715000 swap 4 write 9811455 4695424
+1023407786000: system.mem_ctrls: mytrace2 totalAccess 121214033 totalHit 113986961 overflow 2084 evictTime 0
+1024841641000: system.mem_ctrls: mytrace writeOverhead 440588670000 swap 4 write 9826414 4734720
+1024841641000: system.mem_ctrls: mytrace2 totalAccess 121398993 totalHit 114161651 overflow 2086 evictTime 0
+1025812683000: system.mem_ctrls: mytrace writeOverhead 441032115000 swap 4 write 9836388 4833920
+1025812683000: system.mem_ctrls: mytrace2 totalAccess 121522345 totalHit 114278078 overflow 2087 evictTime 0
+1026827923000: system.mem_ctrls: mytrace writeOverhead 441471955000 swap 4 write 9846362 6449536
+1026827923000: system.mem_ctrls: mytrace2 totalAccess 121645476 totalHit 114394725 overflow 2087 evictTime 0
+1034770178000: system.mem_ctrls: mytrace writeOverhead 444736655000 swap 4 write 9921361 20850880
+1034770178000: system.mem_ctrls: mytrace2 totalAccess 122566660 totalHit 115273457 overflow 2087 evictTime 0
+1046141878000: system.mem_ctrls: mytrace writeOverhead 450830470000 swap 4 write 10061360 11249728
+1046141878000: system.mem_ctrls: mytrace2 totalAccess 124286185 totalHit 116913722 overflow 2087 evictTime 0
+= black
+
+=12 0
+
+1058641948000: system.mem_ctrls: mytrace writeOverhead 457835690000 swap 4 write 10221211 4854656
+1058641948000: system.mem_ctrls: mytrace2 totalAccess 126254073 totalHit 118784374 overflow 2090 evictTime 0
+1059155769000: system.mem_ctrls: mytrace writeOverhead 458056110000 swap 4 write 10226202 6369152
+1059155769000: system.mem_ctrls: mytrace2 totalAccess 126315611 totalHit 118842754 overflow 2091 evictTime 0
+1067133115000: system.mem_ctrls: mytrace writeOverhead 461320820000 swap 4 write 10301201 20770496
+1067133115000: system.mem_ctrls: mytrace2 totalAccess 127236795 totalHit 119721484 overflow 2091 evictTime 0
+1078513484000: system.mem_ctrls: mytrace writeOverhead 467414560000 swap 4 write 10441200 11169344
+1078513484000: system.mem_ctrls: mytrace2 totalAccess 128956314 totalHit 121361789 overflow 2091 evictTime 0
+= black
+
+1091871892000: system.mem_ctrls: mytrace writeOverhead 474265315000 swap 4 write 10596113 195456
+1091871892000: system.mem_ctrls: mytrace2 totalAccess 130862561 totalHit 123164850 overflow 2099 evictTime 0
+1102156007000: system.mem_ctrls: mytrace writeOverhead 475943255000 swap 4 write 10625774 28800
+1102156007000: system.mem_ctrls: mytrace2 totalAccess 131231319 totalHit 123465727 overflow 2157 evictTime 0
+1103973244000: system.mem_ctrls: mytrace writeOverhead 476224005000 swap 4 write 10630697 30528
+1103973244000: system.mem_ctrls: mytrace2 totalAccess 131292566 totalHit 123515799 overflow 2169 evictTime 0
+1107268480000: system.mem_ctrls: mytrace writeOverhead 476786950000 swap 4 write 10640569 53504
+1107268480000: system.mem_ctrls: mytrace2 totalAccess 131417206 totalHit 123616228 overflow 2183 evictTime 0
+1108849845000: system.mem_ctrls: mytrace writeOverhead 477079655000 swap 4 write 10645503 21248
+1108849845000: system.mem_ctrls: mytrace2 totalAccess 131480043 totalHit 123666155 overflow 2196 evictTime 0
+1112109551000: system.mem_ctrls: mytrace writeOverhead 477639510000 swap 4 write 10655338 49216
+1112109551000: system.mem_ctrls: mytrace2 totalAccess 131603528 totalHit 123766064 overflow 2212 evictTime 0
+=13 0
+
+1117775026000: system.mem_ctrls: mytrace writeOverhead 478716580000 swap 4 write 10675091 4766592
+1117775026000: system.mem_ctrls: mytrace2 totalAccess 131852351 totalHit 123974012 overflow 2236 evictTime 0
+1118254400000: system.mem_ctrls: mytrace writeOverhead 478937275000 swap 4 write 10680030 4716096
+1118254400000: system.mem_ctrls: mytrace2 totalAccess 131913933 totalHit 124031931 overflow 2236 evictTime 0
+1118719196000: system.mem_ctrls: mytrace writeOverhead 479158380000 swap 4 write 10685019 4866048
+1118719196000: system.mem_ctrls: mytrace2 totalAccess 131975596 totalHit 124090168 overflow 2236 evictTime 0
+1119176149000: system.mem_ctrls: mytrace writeOverhead 479377775000 swap 4 write 10690003 4810880
+1119176149000: system.mem_ctrls: mytrace2 totalAccess 132037118 totalHit 124148505 overflow 2236 evictTime 0
+1120583246000: system.mem_ctrls: mytrace writeOverhead 480041045000 swap 4 write 10704959 4864832
+1120583246000: system.mem_ctrls: mytrace2 totalAccess 132222095 totalHit 124323154 overflow 2236 evictTime 0
+1121043243000: system.mem_ctrls: mytrace writeOverhead 480261695000 swap 4 write 10709945 4805248
+1121043243000: system.mem_ctrls: mytrace2 totalAccess 132283641 totalHit 124381482 overflow 2237 evictTime 0
+1121514470000: system.mem_ctrls: mytrace writeOverhead 480483980000 swap 4 write 10714928 4758592
+1121514470000: system.mem_ctrls: mytrace2 totalAccess 132345312 totalHit 124439663 overflow 2238 evictTime 0
+1121986493000: system.mem_ctrls: mytrace writeOverhead 480706055000 swap 4 write 10719911 4711744
+1121986493000: system.mem_ctrls: mytrace2 totalAccess 132406968 totalHit 124497861 overflow 2239 evictTime 0
+1122458351000: system.mem_ctrls: mytrace writeOverhead 480928025000 swap 4 write 10724901 4860800
+1122458351000: system.mem_ctrls: mytrace2 totalAccess 132468627 totalHit 124556111 overflow 2240 evictTime 0
+1123868980000: system.mem_ctrls: mytrace writeOverhead 481590325000 swap 4 write 10739852 4705408
+1123868980000: system.mem_ctrls: mytrace2 totalAccess 132653519 totalHit 124730812 overflow 2240 evictTime 0
+1124343803000: system.mem_ctrls: mytrace writeOverhead 481812405000 swap 4 write 10744843 4820736
+1124343803000: system.mem_ctrls: mytrace2 totalAccess 132715189 totalHit 124789060 overflow 2241 evictTime 0
+1125764140000: system.mem_ctrls: mytrace writeOverhead 482478185000 swap 4 write 10759793 4697728
+1125764140000: system.mem_ctrls: mytrace2 totalAccess 132900127 totalHit 124963703 overflow 2244 evictTime 0
+1126241865000: system.mem_ctrls: mytrace writeOverhead 482700300000 swap 4 write 10764784 4813120
+1126241865000: system.mem_ctrls: mytrace2 totalAccess 132961801 totalHit 125021945 overflow 2245 evictTime 0
+1127669925000: system.mem_ctrls: mytrace writeOverhead 483394235000 swap 4 write 10779735 4853888
+1127669925000: system.mem_ctrls: mytrace2 totalAccess 133146768 totalHit 125196566 overflow 2277 evictTime 0
+1128151206000: system.mem_ctrls: mytrace writeOverhead 483617685000 swap 4 write 10784726 4805504
+1128151206000: system.mem_ctrls: mytrace2 totalAccess 133208436 totalHit 125254814 overflow 2280 evictTime 0
+1137145989000: system.mem_ctrls: mytrace writeOverhead 487325785000 swap 4 write 10869692 20671104
+1137145989000: system.mem_ctrls: mytrace2 totalAccess 134252946 totalHit 126249910 overflow 2281 evictTime 0
+1148536419000: system.mem_ctrls: mytrace writeOverhead 493419650000 swap 4 write 11009691 11069952
+1148536419000: system.mem_ctrls: mytrace2 totalAccess 135972475 totalHit 127890174 overflow 2281 evictTime 0
+= black
+
+=14 0
+
+1162075195000: system.mem_ctrls: mytrace writeOverhead 500876320000 swap 4 write 11179425 4737088
+1162075195000: system.mem_ctrls: mytrace2 totalAccess 138063840 totalHit 129875768 overflow 2286 evictTime 0
+1162541527000: system.mem_ctrls: mytrace writeOverhead 501098310000 swap 4 write 11184409 4854400
+1162541527000: system.mem_ctrls: mytrace2 totalAccess 138125489 totalHit 129933975 overflow 2287 evictTime 0
+1164406476000: system.mem_ctrls: mytrace writeOverhead 501981605000 swap 4 write 11204351 4849600
+1164406476000: system.mem_ctrls: mytrace2 totalAccess 138371966 totalHit 130166989 overflow 2288 evictTime 0
+1164875995000: system.mem_ctrls: mytrace writeOverhead 502202950000 swap 4 write 11209342 4834560
+1164875995000: system.mem_ctrls: mytrace2 totalAccess 138433579 totalHit 130225293 overflow 2289 evictTime 0
+1167688756000: system.mem_ctrls: mytrace writeOverhead 503526695000 swap 4 write 11239252 4714240
+1167688756000: system.mem_ctrls: mytrace2 totalAccess 138803230 totalHit 130574883 overflow 2290 evictTime 0
+1170056141000: system.mem_ctrls: mytrace writeOverhead 504633165000 swap 4 write 11264186 4811328
+1170056141000: system.mem_ctrls: mytrace2 totalAccess 139111384 totalHit 130866163 overflow 2293 evictTime 0
+1171961722000: system.mem_ctrls: mytrace writeOverhead 505516685000 swap 4 write 11284126 4826624
+1171961722000: system.mem_ctrls: mytrace2 totalAccess 139357875 totalHit 131099161 overflow 2294 evictTime 0
+1172427620000: system.mem_ctrls: mytrace writeOverhead 505737775000 swap 4 write 11289108 4765248
+1172427620000: system.mem_ctrls: mytrace2 totalAccess 139419444 totalHit 131157435 overflow 2295 evictTime 0
+1174343880000: system.mem_ctrls: mytrace writeOverhead 506623980000 swap 4 write 11309050 4747776
+1174343880000: system.mem_ctrls: mytrace2 totalAccess 139666000 totalHit 131390390 overflow 2298 evictTime 0
+1176273868000: system.mem_ctrls: mytrace writeOverhead 507540600000 swap 4 write 11328993 4730304
+1176273868000: system.mem_ctrls: mytrace2 totalAccess 139912539 totalHit 131623374 overflow 2333 evictTime 0
+1179173950000: system.mem_ctrls: mytrace writeOverhead 508870480000 swap 4 write 11358909 4796608
+1179173950000: system.mem_ctrls: mytrace2 totalAccess 140282393 totalHit 131972808 overflow 2338 evictTime 0
+1179667160000: system.mem_ctrls: mytrace writeOverhead 509091955000 swap 4 write 11363892 4745856
+1179667160000: system.mem_ctrls: mytrace2 totalAccess 140344077 totalHit 132030974 overflow 2338 evictTime 0
+1188166982000: system.mem_ctrls: mytrace writeOverhead 512576450000 swap 4 write 11443882 20822080
+1188166982000: system.mem_ctrls: mytrace2 totalAccess 141326825 totalHit 132968039 overflow 2338 evictTime 0
+1199542291000: system.mem_ctrls: mytrace writeOverhead 518670250000 swap 4 write 11583881 11220928
+1199542291000: system.mem_ctrls: mytrace2 totalAccess 143046349 totalHit 134608306 overflow 2338 evictTime 0
+= black
+
+=15 0
+
+1211353246000: system.mem_ctrls: mytrace writeOverhead 525230245000 swap 4 write 11733744 4742464
+1211353246000: system.mem_ctrls: mytrace2 totalAccess 144890886 totalHit 136362414 overflow 2338 evictTime 0
+1211846178000: system.mem_ctrls: mytrace writeOverhead 525449425000 swap 4 write 11738614 4869888
+1211846178000: system.mem_ctrls: mytrace2 totalAccess 144952149 totalHit 136420099 overflow 2340 evictTime 0
+1212317511000: system.mem_ctrls: mytrace writeOverhead 525662505000 swap 4 write 11743393 4808448
+1212317511000: system.mem_ctrls: mytrace2 totalAccess 145012934 totalHit 136477533 overflow 2341 evictTime 0
+1214176104000: system.mem_ctrls: mytrace writeOverhead 526546575000 swap 4 write 11763333 4799872
+1214176104000: system.mem_ctrls: mytrace2 totalAccess 145259397 totalHit 136710564 overflow 2343 evictTime 0
+1215587814000: system.mem_ctrls: mytrace writeOverhead 527209235000 swap 4 write 11778291 4818624
+1215587814000: system.mem_ctrls: mytrace2 totalAccess 145444333 totalHit 136885270 overflow 2343 evictTime 0
+1217471534000: system.mem_ctrls: mytrace writeOverhead 528092615000 swap 4 write 11798232 4841408
+1217471534000: system.mem_ctrls: mytrace2 totalAccess 145690822 totalHit 137118288 overflow 2344 evictTime 0
+1218411051000: system.mem_ctrls: mytrace writeOverhead 528533510000 swap 4 write 11808198 4732160
+1218411051000: system.mem_ctrls: mytrace2 totalAccess 145814029 totalHit 137234795 overflow 2344 evictTime 0
+1221257482000: system.mem_ctrls: mytrace writeOverhead 529862205000 swap 4 write 11838114 4808000
+1221257482000: system.mem_ctrls: mytrace2 totalAccess 146183866 totalHit 137584273 overflow 2348 evictTime 0
+1221739739000: system.mem_ctrls: mytrace writeOverhead 530083780000 swap 4 write 11843097 4758080
+1221739739000: system.mem_ctrls: mytrace2 totalAccess 146245557 totalHit 137642435 overflow 2348 evictTime 0
+1225108053000: system.mem_ctrls: mytrace writeOverhead 531667875000 swap 4 write 11877999 4781888
+1225108053000: system.mem_ctrls: mytrace2 totalAccess 146677267 totalHit 138049919 overflow 2385 evictTime 0
+1225598345000: system.mem_ctrls: mytrace writeOverhead 531890765000 swap 4 write 11882982 4732160
+1225598345000: system.mem_ctrls: mytrace2 totalAccess 146738991 totalHit 138108049 overflow 2386 evictTime 0
+1226089170000: system.mem_ctrls: mytrace writeOverhead 532113885000 swap 4 write 11887966 4846144
+1226089170000: system.mem_ctrls: mytrace2 totalAccess 146800734 totalHit 138166168 overflow 2387 evictTime 0
+1228509436000: system.mem_ctrls: mytrace writeOverhead 533223835000 swap 4 write 11912898 4802432
+1228509436000: system.mem_ctrls: mytrace2 totalAccess 147109183 totalHit 138457155 overflow 2390 evictTime 0
+1229004793000: system.mem_ctrls: mytrace writeOverhead 533446365000 swap 4 write 11917881 4752320
+1229004793000: system.mem_ctrls: mytrace2 totalAccess 147170956 totalHit 138515231 overflow 2390 evictTime 0
+1230474911000: system.mem_ctrls: mytrace writeOverhead 534114045000 swap 4 write 11932840 4787008
+1230474911000: system.mem_ctrls: mytrace2 totalAccess 147356151 totalHit 138689677 overflow 2392 evictTime 0
+1231474952000: system.mem_ctrls: mytrace writeOverhead 534560930000 swap 4 write 11942807 4850304
+1231474952000: system.mem_ctrls: mytrace2 totalAccess 147479772 totalHit 138805769 overflow 2393 evictTime 0
+1233939054000: system.mem_ctrls: mytrace writeOverhead 535673405000 swap 4 write 11967740 4805248
+1233939054000: system.mem_ctrls: mytrace2 totalAccess 147788578 totalHit 139096391 overflow 2394 evictTime 0
+1234954339000: system.mem_ctrls: mytrace writeOverhead 536122055000 swap 4 write 11977707 4704320
+1234954339000: system.mem_ctrls: mytrace2 totalAccess 147912335 totalHit 139212355 overflow 2395 evictTime 0
+1235459867000: system.mem_ctrls: mytrace writeOverhead 536345525000 swap 4 write 11982698 4817024
+1235459867000: system.mem_ctrls: mytrace2 totalAccess 147974197 totalHit 139270409 overflow 2395 evictTime 0
+1236448747000: system.mem_ctrls: mytrace writeOverhead 536791545000 swap 4 write 11992665 4737792
+1236448747000: system.mem_ctrls: mytrace2 totalAccess 148097743 totalHit 139386581 overflow 2396 evictTime 0
+1236958472000: system.mem_ctrls: mytrace writeOverhead 537016370000 swap 4 write 11997649 4850816
+1236958472000: system.mem_ctrls: mytrace2 totalAccess 148159623 totalHit 139444558 overflow 2397 evictTime 0
+1237950655000: system.mem_ctrls: mytrace writeOverhead 537462230000 swap 4 write 12007623 4770880
+1237950655000: system.mem_ctrls: mytrace2 totalAccess 148283168 totalHit 139560784 overflow 2398 evictTime 0
+1238978487000: system.mem_ctrls: mytrace writeOverhead 537910685000 swap 4 write 12017595 4865472
+1238978487000: system.mem_ctrls: mytrace2 totalAccess 148406996 totalHit 139676714 overflow 2398 evictTime 0
+1239460590000: system.mem_ctrls: mytrace writeOverhead 538132910000 swap 4 write 12022582 4803648
+1239460590000: system.mem_ctrls: mytrace2 totalAccess 148468671 totalHit 139734921 overflow 2399 evictTime 0
+1241011312000: system.mem_ctrls: mytrace writeOverhead 538808985000 swap 4 write 12037540 4812416
+1241011312000: system.mem_ctrls: mytrace2 totalAccess 148654457 totalHit 139908774 overflow 2402 evictTime 0
+1241497055000: system.mem_ctrls: mytrace writeOverhead 539030455000 swap 4 write 12042522 4784832
+1241497055000: system.mem_ctrls: mytrace2 totalAccess 148716141 totalHit 139966932 overflow 2402 evictTime 0
+1244066453000: system.mem_ctrls: mytrace writeOverhead 540185530000 swap 4 write 12067440 4713856
+1244066453000: system.mem_ctrls: mytrace2 totalAccess 149025655 totalHit 140256734 overflow 2438 evictTime 0
+1246655119000: system.mem_ctrls: mytrace writeOverhead 541311635000 swap 4 write 12092369 4834304
+1246655119000: system.mem_ctrls: mytrace2 totalAccess 149335404 totalHit 140546389 overflow 2441 evictTime 0
+1248202429000: system.mem_ctrls: mytrace writeOverhead 541986470000 swap 4 write 12107321 4867840
+1248202429000: system.mem_ctrls: mytrace2 totalAccess 149521159 totalHit 140720224 overflow 2443 evictTime 0
+1248691813000: system.mem_ctrls: mytrace writeOverhead 542208095000 swap 4 write 12112305 4809472
+1248691813000: system.mem_ctrls: mytrace2 totalAccess 149582862 totalHit 140778379 overflow 2443 evictTime 0
+1249756284000: system.mem_ctrls: mytrace writeOverhead 542660155000 swap 4 write 12122270 4700928
+1249756284000: system.mem_ctrls: mytrace2 totalAccess 149706892 totalHit 140894051 overflow 2444 evictTime 0
+1254447010000: system.mem_ctrls: mytrace writeOverhead 544683060000 swap 4 write 12167136 4788352
+1254447010000: system.mem_ctrls: mytrace2 totalAccess 150264364 totalHit 141415459 overflow 2446 evictTime 0
+1256565345000: system.mem_ctrls: mytrace writeOverhead 545587830000 swap 4 write 12187073 4764992
+1256565345000: system.mem_ctrls: mytrace2 totalAccess 150512337 totalHit 141646949 overflow 2450 evictTime 0
+1258148240000: system.mem_ctrls: mytrace writeOverhead 546265005000 swap 4 write 12202029 4793984
+1258148240000: system.mem_ctrls: mytrace2 totalAccess 150698360 totalHit 141820548 overflow 2451 evictTime 0
+1260836458000: system.mem_ctrls: mytrace writeOverhead 547399970000 swap 4 write 12226950 4717952
+1260836458000: system.mem_ctrls: mytrace2 totalAccess 151008796 totalHit 142109454 overflow 2454 evictTime 0
+1261885290000: system.mem_ctrls: mytrace writeOverhead 547879870000 swap 4 write 12236924 4799296
+1261885290000: system.mem_ctrls: mytrace2 totalAccess 151132757 totalHit 142225265 overflow 2485 evictTime 0
+1263541589000: system.mem_ctrls: mytrace writeOverhead 548567225000 swap 4 write 12251880 4831040
+1263541589000: system.mem_ctrls: mytrace2 totalAccess 151319284 totalHit 142398364 overflow 2490 evictTime 0
+1264602116000: system.mem_ctrls: mytrace writeOverhead 549021600000 swap 4 write 12261845 4722432
+1264602116000: system.mem_ctrls: mytrace2 totalAccess 151443404 totalHit 142513944 overflow 2492 evictTime 0
+1265661853000: system.mem_ctrls: mytrace writeOverhead 549474820000 swap 4 write 12271819 4803008
+1265661853000: system.mem_ctrls: mytrace2 totalAccess 151567529 totalHit 142629591 overflow 2493 evictTime 0
+1266220781000: system.mem_ctrls: mytrace writeOverhead 549704670000 swap 4 write 12276801 4750016
+1266220781000: system.mem_ctrls: mytrace2 totalAccess 151629800 totalHit 142687164 overflow 2494 evictTime 0
+1267845611000: system.mem_ctrls: mytrace writeOverhead 550386880000 swap 4 write 12291757 4777408
+1267845611000: system.mem_ctrls: mytrace2 totalAccess 151816202 totalHit 142860376 overflow 2495 evictTime 0
+1268971146000: system.mem_ctrls: mytrace writeOverhead 550845940000 swap 4 write 12301726 4866304
+1268971146000: system.mem_ctrls: mytrace2 totalAccess 151940764 totalHit 142975526 overflow 2496 evictTime 0
+1270042012000: system.mem_ctrls: mytrace writeOverhead 551299770000 swap 4 write 12311692 4750272
+1270042012000: system.mem_ctrls: mytrace2 totalAccess 152064906 totalHit 143091073 overflow 2497 evictTime 0
+1270608088000: system.mem_ctrls: mytrace writeOverhead 551529430000 swap 4 write 12316672 4695744
+1270608088000: system.mem_ctrls: mytrace2 totalAccess 152127221 totalHit 143148567 overflow 2497 evictTime 0
+1271168243000: system.mem_ctrls: mytrace writeOverhead 551758315000 swap 4 write 12321661 4730240
+1271168243000: system.mem_ctrls: mytrace2 totalAccess 152189498 totalHit 143206179 overflow 2497 evictTime 0
+1271680057000: system.mem_ctrls: mytrace writeOverhead 551984435000 swap 4 write 12326640 4772992
+1271680057000: system.mem_ctrls: mytrace2 totalAccess 152251455 totalHit 143264035 overflow 2498 evictTime 0
+1272247654000: system.mem_ctrls: mytrace writeOverhead 552215935000 swap 4 write 12331619 4717504
+1272247654000: system.mem_ctrls: mytrace2 totalAccess 152313833 totalHit 143321449 overflow 2499 evictTime 0
+1274462508000: system.mem_ctrls: mytrace writeOverhead 553133415000 swap 4 write 12351547 4847232
+1274462508000: system.mem_ctrls: mytrace2 totalAccess 152562853 totalHit 143551723 overflow 2501 evictTime 0
+1275576246000: system.mem_ctrls: mytrace writeOverhead 553591505000 swap 4 write 12361514 6291392
+1275576246000: system.mem_ctrls: mytrace2 totalAccess 152687290 totalHit 143666972 overflow 2502 evictTime 0
+1283583438000: system.mem_ctrls: mytrace writeOverhead 556856120000 swap 4 write 12436513 20692800
+1283583438000: system.mem_ctrls: mytrace2 totalAccess 153608466 totalHit 144545710 overflow 2502 evictTime 0
+1294973916000: system.mem_ctrls: mytrace writeOverhead 562949935000 swap 4 write 12576512 11091648
+1294973916000: system.mem_ctrls: mytrace2 totalAccess 155327992 totalHit 146185973 overflow 2502 evictTime 0
+1306378989000: system.mem_ctrls: mytrace writeOverhead 569480510000 swap 4 write 12726464 5436480
+1306378989000: system.mem_ctrls: mytrace2 totalAccess 157170404 totalHit 147942965 overflow 2502 evictTime 0
+= black
+
+=16 1 A15
+
+1309100654000: system.mem_ctrls: mytrace writeOverhead 570230425000 swap 4 write 12741163 4830528
+1309100654000: system.mem_ctrls: mytrace2 totalAccess 157359485 totalHit 148107838 overflow 2509 evictTime 0
+1309559923000: system.mem_ctrls: mytrace writeOverhead 570451030000 swap 4 write 12746130 4771584
+1309559923000: system.mem_ctrls: mytrace2 totalAccess 157421005 totalHit 148166041 overflow 2510 evictTime 0
+1310027171000: system.mem_ctrls: mytrace writeOverhead 570672995000 swap 4 write 12751113 4724992
+1310027171000: system.mem_ctrls: mytrace2 totalAccess 157482651 totalHit 148224248 overflow 2511 evictTime 0
+1310961780000: system.mem_ctrls: mytrace writeOverhead 571114695000 swap 4 write 12761088 4826880
+1310961780000: system.mem_ctrls: mytrace2 totalAccess 157605944 totalHit 148340742 overflow 2511 evictTime 0
+1311422022000: system.mem_ctrls: mytrace writeOverhead 571335905000 swap 4 write 12766070 4767424
+1311422022000: system.mem_ctrls: mytrace2 totalAccess 157667523 totalHit 148399005 overflow 2512 evictTime 0
+1311893029000: system.mem_ctrls: mytrace writeOverhead 571557370000 swap 4 write 12771053 4720064
+1311893029000: system.mem_ctrls: mytrace2 totalAccess 157729207 totalHit 148457171 overflow 2512 evictTime 0
+1312826789000: system.mem_ctrls: mytrace writeOverhead 571998595000 swap 4 write 12781027 4837376
+1312826789000: system.mem_ctrls: mytrace2 totalAccess 157852459 totalHit 148573689 overflow 2512 evictTime 0
+1313772725000: system.mem_ctrls: mytrace writeOverhead 572472640000 swap 4 write 12790993 4712768
+1313772725000: system.mem_ctrls: mytrace2 totalAccess 157975858 totalHit 148690002 overflow 2544 evictTime 0
+1316188244000: system.mem_ctrls: mytrace writeOverhead 573583975000 swap 4 write 12815927 6377728
+1316188244000: system.mem_ctrls: mytrace2 totalAccess 158284177 totalHit 148981135 overflow 2550 evictTime 0
+1324161745000: system.mem_ctrls: mytrace writeOverhead 576848630000 swap 4 write 12890926 20779072
+1324161745000: system.mem_ctrls: mytrace2 totalAccess 159205356 totalHit 149859870 overflow 2550 evictTime 0
+1335542961000: system.mem_ctrls: mytrace writeOverhead 582942410000 swap 4 write 13030925 11177920
+1335542961000: system.mem_ctrls: mytrace2 totalAccess 160924878 totalHit 151500166 overflow 2550 evictTime 0
+= black
+
+=17 1 G6
+
+1348980519000: system.mem_ctrls: mytrace writeOverhead 590380685000 swap 4 write 13200752 4847232
+1348980519000: system.mem_ctrls: mytrace2 totalAccess 163015553 totalHit 153487858 overflow 2551 evictTime 0
+1351858280000: system.mem_ctrls: mytrace writeOverhead 591707635000 swap 4 write 13230678 6494592
+1351858280000: system.mem_ctrls: mytrace2 totalAccess 163385256 totalHit 153837524 overflow 2555 evictTime 0
+1359791109000: system.mem_ctrls: mytrace writeOverhead 594972340000 swap 4 write 13305677 20896000
+1359791109000: system.mem_ctrls: mytrace2 totalAccess 164306441 totalHit 154716243 overflow 2555 evictTime 0
+1371164802000: system.mem_ctrls: mytrace writeOverhead 601066120000 swap 4 write 13445676 11294848
+1371164802000: system.mem_ctrls: mytrace2 totalAccess 166025964 totalHit 156356512 overflow 2555 evictTime 0
+= black
+
+1383621382000: system.mem_ctrls: mytrace writeOverhead 607679155000 swap 4 write 13595605 22720
+1383621382000: system.mem_ctrls: mytrace2 totalAccess 167871703 totalHit 158105446 overflow 2565 evictTime 0
+1385640253000: system.mem_ctrls: mytrace writeOverhead 607970935000 swap 4 write 13600540 207424
+1385640253000: system.mem_ctrls: mytrace2 totalAccess 167933328 totalHit 158154174 overflow 2577 evictTime 0
+1387506738000: system.mem_ctrls: mytrace writeOverhead 608254490000 swap 4 write 13605474 207360
+1387506738000: system.mem_ctrls: mytrace2 totalAccess 167994563 totalHit 158203146 overflow 2585 evictTime 0
+1389482905000: system.mem_ctrls: mytrace writeOverhead 608547215000 swap 4 write 13610403 201472
+1389482905000: system.mem_ctrls: mytrace2 totalAccess 168056948 totalHit 158252000 overflow 2594 evictTime 0
+1391522642000: system.mem_ctrls: mytrace writeOverhead 608840405000 swap 4 write 13615326 204928
+1391522642000: system.mem_ctrls: mytrace2 totalAccess 168119354 totalHit 158301053 overflow 2605 evictTime 0
+1393483135000: system.mem_ctrls: mytrace writeOverhead 609138520000 swap 4 write 13620281 45056
+1393483135000: system.mem_ctrls: mytrace2 totalAccess 168182901 totalHit 158350562 overflow 2615 evictTime 0
+1395407316000: system.mem_ctrls: mytrace writeOverhead 609425185000 swap 4 write 13625221 45184
+1395407316000: system.mem_ctrls: mytrace2 totalAccess 168243839 totalHit 158399160 overflow 2625 evictTime 0
+1397484186000: system.mem_ctrls: mytrace writeOverhead 609716120000 swap 4 write 13630187 37120
+1397484186000: system.mem_ctrls: mytrace2 totalAccess 168305314 totalHit 158447812 overflow 2635 evictTime 0
+1401327133000: system.mem_ctrls: mytrace writeOverhead 610292030000 swap 4 write 13640125 202944
+1401327133000: system.mem_ctrls: mytrace2 totalAccess 168428702 totalHit 158546184 overflow 2653 evictTime 0
+=18 1 F6
+
+Exiting @ tick 1402469100000 because exiting with last active thread context
